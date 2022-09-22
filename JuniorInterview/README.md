@@ -38,11 +38,11 @@ You can choose one of the following languages to solve the problems:
 
 ## Problem 1 - Restaurant
 
-**<u>Instructions</u>**
+### <u>Instructions</u>
 1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 1 folder for the needed resources.
 2. This folder will contain the input file that should be used in the program.
 
-**<u>Problem</u>**
+### <u>Problem</u>
 
 A local restaurant wants to modernize how they work now that the son of the owner will 
 manage it. He is your friend so he asks you to make a system that will resume the 
@@ -84,7 +84,7 @@ Total per person: $31.5
 
 ## Problem 2 - Fix the code
 
-**<u>Instructions</u>**
+### <u>Instructions</u>
 
 1. Download the Problem 2 folder.
 2. Create a Repl of **Java** with the name **SorterMain**
@@ -100,7 +100,7 @@ Total per person: $31.5
 > sh run.sh
 
 
-**<u>Problem</u>**
+### <u>Problem</u>
 
 This folder contains a code that ....
 The code will not run because there are errors. You should:
