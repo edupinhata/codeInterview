@@ -17,7 +17,6 @@ skills like:
 For this test, you'll need:
 
 - Connection to the internet
-- Computer
 - Access to a brownser
 - All problems will be implemented in the [repl.it](https://repl.it) site.
 
@@ -39,11 +38,11 @@ You can choose one of the following languages to solve the problems:
 
 ## Problem 1 - Restaurant
 
-**<u>Instructions</u>**
-1. Download the Problem 1 folder for the needed resources.
+### <u>Instructions</u>
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 1 folder for the needed resources.
 2. This folder will contain the input file that should be used in the program.
 
-**<u>Problem</u>**
+### <u>Problem</u>
 
 A local restaurant wants to modernize how they work now that the son of the owner will 
 manage it. He is your friend so he asks you to make a system that will resume the 
@@ -81,21 +80,38 @@ Total: $63
 Total per person: $31.5
 ```
 
+---
 
 ## Problem 2 - Fix the code
 
-**<u>Instructions</u>**
+### <u>Instructions</u>
 
 1. Download the Problem 2 folder.
-2. Create a Repl and add the folder into it.
+2. Create a Repl of **Java** with the name **SorterMain**
 
-**<u>Problem</u>**
+![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
 
-This folder contains a code that ....
-The code will not run because there are errors. You should:
+![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
 
-1. Fix all the errors.
-2. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+3. Add the files of Problem2 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
+4. To compile, run in the terminal of repl.it (right side) the following command:
+> sh compile.sh
+5. When the compilation don't give any errors, run with the command:
+> sh run.sh
+
+
+### <u>Problem</u>
+
+This folder contains a code with some sorting algorithms for integer arrays.
+
+- The code will not run because there are errors.
+- There are some logical errors that will make the algorithms run wrongly.
+
+1. Fix all the errors. So the program compile.
+2. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+3. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+
+---
 
 ## Problem 3 - SQL
 
