@@ -81,6 +81,7 @@ Total: $63
 Total per person: $31.5
 ```
 
+---
 
 ## Problem 2 - Fix the code
 
@@ -96,6 +97,8 @@ The code will not run because there are errors. You should:
 
 1. Fix all the errors.
 2. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+
+---
 
 ## Problem 3 - SQL
 
