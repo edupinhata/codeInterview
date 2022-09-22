@@ -1,2 +1,6 @@
-# codeInterview
-Resources used to make code interview
+# Code Interview
+
+Resources used to make code interview.
+
+## Junior Code Interview
+
