@@ -88,8 +88,10 @@ Total per person: $31.5
 
 1. Download the Problem 2 folder.
 2. Create a Repl of **Java** with the name **SorterMain**
-![Create_replit](https://user-images.githubusercontent.com/6368537/191852842-f95efedd-9d4f-46f4-bebd-57ffca326231.PNG)
+![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
+
 ![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
+
 3. Add the files of Problem2 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
 4. To compile, run in the terminal of repl.it (right side)
 > sh compile.sh
