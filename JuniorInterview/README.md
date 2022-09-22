@@ -94,7 +94,7 @@ Total per person: $31.5
 ![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
 
 3. Add the files of Problem2 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
-4. To compile, run in the terminal of repl.it (right side)
+4. To compile, run in the terminal of repl.it (right side) the following command:
 > sh compile.sh
 5. When the compilation don't give any errors, run with the command:
 > sh run.sh
