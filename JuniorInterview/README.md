@@ -86,7 +86,7 @@ Total per person: $31.5
 
 ### <u>Instructions</u>
 
-1. Download the Problem 2 folder.
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem2.zip) the Problem 2 folder.
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
