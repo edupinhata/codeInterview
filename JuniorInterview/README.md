@@ -102,11 +102,14 @@ Total per person: $31.5
 
 ### <u>Problem</u>
 
-This folder contains a code that ....
-The code will not run because there are errors. You should:
+This folder contains a code with some sorting algorithms for integer arrays.
 
-1. Fix all the errors.
-2. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+- The code will not run because there are errors.
+- There are some logical errors that will make the algorithms run wrongly.
+
+1. Fix all the errors. So the program compile.
+2. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+3. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
 ---
 
