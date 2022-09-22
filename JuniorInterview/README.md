@@ -17,7 +17,6 @@ skills like:
 For this test, you'll need:
 
 - Connection to the internet
-- Computer
 - Access to a brownser
 - All problems will be implemented in the [repl.it](https://repl.it) site.
 
