@@ -40,7 +40,7 @@ You can choose one of the following languages to solve the problems:
 ## Problem 1 - Restaurant
 
 **<u>Instructions</u>**
-1. Download the Problem 1 folder for the needed resources.
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 1 folder for the needed resources.
 2. This folder will contain the input file that should be used in the program.
 
 **<u>Problem</u>**
