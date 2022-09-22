@@ -1,0 +1,1 @@
+javac ./Sorter.java ./SorterMain.java ./BubbleSorter.java ./InsertionSorter.java
