@@ -36,57 +36,11 @@ You can choose one of the following languages to solve the problems:
 
 ---
 
-## Problem 1 - Restaurant
-
-### <u>Instructions</u>
-1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 1 folder for the needed resources.
-2. This folder will contain the input file that should be used in the program.
-
-### <u>Problem</u>
-
-A local restaurant wants to modernize how they work now that the son of the owner will 
-manage it. He is your friend so he asks you to make a system that will resume the 
-orders information and display to the customers as required.
-He will take each client order in a list that follows the specific rules:
-
-- The first line will have the number **N** of dishes noted by the waiter;
-- The second line will have the number **P** of people in the table;
-- The next **N** lines will have the name of the dish and the price of it;
-
-```vim
-5
-2
-Dish1 15
-Dish3 7
-Dish1 15
-Dish8 20
-Dish2 6
-```
-
-The output should be a list with the dishes sorted by total value of the dishes.
-Each line of this list will gather the equal dishes, display the amount of dishes 
-order and the total.
-After all items, make a separator (e.g. ====================), and add the following
-information: value of the tab, value for each person. The example above will 
-have the following result:
-
-```vim
-Dish1 | 2x | 30
-Dish8 | 1x | 20
-Dish3 | 1x | 7
-Dish2 | 1x | 6
-=====================
-Total: $63
-Total per person: $31.5
-```
-
----
-
-## Problem 2 - Fix the code
+## Problem 1 - Fix the code
 
 ### <u>Instructions</u>
 
-1. Download the Problem 2 folder.
+1. Download the Problem 1 folder.
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
@@ -113,7 +67,7 @@ This folder contains a code with some sorting algorithms for integer arrays.
 
 ---
 
-## Problem 3 - SQL
+## Problem 2 - SQL
 
 ### <u>Schemas</u>
 
@@ -168,3 +122,72 @@ This folder contains a code with some sorting algorithms for integer arrays.
 |---------------------------------|
 | Nicolas Diogo Cardoso           |
 | Sabrina Heloisa Gabriela Barros |
+
+
+---
+
+## Problem 3 - Restaurant
+
+### <u>Instructions</u>
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 3 folder for the needed resources.
+2. This folder will contain the input file that should be used in the program.
+
+### <u>Problem</u>
+
+A local restaurant wants to modernize how they work now that the son of the owner will 
+manage it. He is your friend so he asks you to make a system that will resume the 
+orders information and display to the customers as required.
+He will take each client order in a list that follows the specific rules:
+
+- The first line will have the number **N** of dishes noted by the waiter;
+- The second line will have the number **P** of people in the table;
+- The next **N** lines will have the name of the dish and the price of it;
+
+```vim
+5
+2
+Dish1 15
+Dish3 7
+Dish1 15
+Dish8 20
+Dish2 6
+```
+
+The output should be a list with the dishes sorted by total value of the dishes.
+Each line of this list will gather the equal dishes, display the amount of dishes 
+order and the total.
+After all items, make a separator (e.g. ====================), and add the following
+information: value of the tab, value for each person. The example above will 
+have the following result:
+
+```vim
+Dish1 | 2x | 30
+Dish8 | 1x | 20
+Dish3 | 1x | 7
+Dish2 | 1x | 6
+=====================
+Total: $63
+Total per person: $31.5
+```
+<details>
+    <summary>Example of how to read files in Java</summary>
+
+```vim
+import java.util.Scanner;
+import java.io.FileNotFoundException; 
+import java.io.File;
+
+class Main {
+  public static void main(String[] args) {
+   File f = new File("fileToRead.txt");
+    try{
+      Scanner s = new Scanner(f);
+      System.out.println(s.nextLine());
+      
+    }catch(FileNotFoundException e){
+      e.printStackTrace();
+    }
+  }
+}
+```
+</details>
