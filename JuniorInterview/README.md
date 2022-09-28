@@ -40,7 +40,7 @@ You can choose one of the following languages to solve the problems:
 
 ### <u>Instructions</u>
 
-1. Download the Problem 1 folder.
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 1 folder.
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
@@ -129,7 +129,7 @@ This folder contains a code with some sorting algorithms for integer arrays.
 ## Problem 3 - Restaurant
 
 ### <u>Instructions</u>
-1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip) the Problem 3 folder for the needed resources.
+1. [Download](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem3.zip) the Problem 3 folder for the needed resources.
 2. This folder will contain the input file that should be used in the program.
 
 ### <u>Problem</u>
