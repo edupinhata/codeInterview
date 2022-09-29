@@ -20,6 +20,9 @@ For this test, you'll need:
 
 - Connection to the internet
 - Access to a brownser
+
+### Implementation environment
+
 - All problems will be implemented in the [repl.it](https://repl.it) site.
 
 ### **<u>Time limit</u>**
