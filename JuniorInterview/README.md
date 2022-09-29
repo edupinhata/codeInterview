@@ -37,10 +37,13 @@ You can choose one of the following languages to solve the problems:
 - Javascript (Node) 
 
 **<u>Problems resume</u>**
+
 You can solve the problems in which order you prefer.
 
 **Problem 1**: problem to fix the code. Need to compile and execute de code fixing the errors until the output is right.
+
 **Problem 2**: create some SQL queries to get desired output
+
 **Problem 3**: implement a simple code. This will check your knowledge about basic programming problems.
 
 ---
