@@ -74,9 +74,9 @@ This folder contains a code with some sorting algorithms for integer arrays.
 - The code will not run because there are errors.
 - There are some logical errors that will make the algorithms run wrongly.
 
-1. Fix all the errors. So the program compile.
-2. Fix all logical errors so the array is sorted from the smaller number to the greater number.
-3. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+a. Fix all the errors. So the program compile.
+b. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+c. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
 ---
 
@@ -127,9 +127,9 @@ This folder contains a code with some sorting algorithms for integer arrays.
 | 5            | 47773848000117 | 99100-8965 |
 
 
-1. Make a query that return the name of people that has credit limit above 1500.
+a. Make a query that return the name of people that has credit limit above 1500.
 
-2. Make a query that return the name of the people that are a legal person. Expected result:
+b. Make a query that return the name of the people that are a legal person. Expected result:
 
 | name                            |
 |---------------------------------|
