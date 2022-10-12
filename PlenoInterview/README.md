@@ -91,7 +91,7 @@ The intern of your team openned this [pull request](https://github.com/edupinhat
 Make comments in the PR that you think it's necessary to be fixed or improved.
 
 OBS: these are the outputs without the PR and with PR:
-### Output Wihtout PR
+### Output Wihtout PR for Order1 file
 ```vim
 Dish10 | 8.0
 Dish4 | 15.0
@@ -104,7 +104,7 @@ Num. of people: 3
 Total per person: $21.33
 ```
 
-### Output With PR
+### Output With PR for Order1 file
 ```vim
 Dish4      |  2x | 30.00
 Dish1      |  1x | 20.00
