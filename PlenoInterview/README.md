@@ -20,10 +20,11 @@ For this test, you'll need:
 
 - Connection to the internet
 - Access to a brownser
+- Account in [github](https://github.com)
 
 ### Implementation environment
 
-- All problems will be implemented in the [repl.it](https://repl.it) site.
+- If you need an implementation environment, you might use [repl.it](https://repl.it) site.
 
 ### **<u>Time limit</u>**
 
@@ -44,8 +45,7 @@ You can choose one of the following languages to solve the problems:
 You can solve the problems in which order you prefer.
 
 - **Problem 1**: Make a code review.
-- **Problem 2**: Give a design solution for a problem.
-- **Problem 3**: implement a simple code. 
+- **Problem 2**: implementation. 
 
 ---
 
@@ -115,3 +115,9 @@ Total: $64.00
 Num of people: 3
 Total per person: $21.33
 ```
+
+---
+
+## Problem 2: implementation
+
+
