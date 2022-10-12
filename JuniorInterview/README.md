@@ -60,7 +60,7 @@ You can solve the problems in which order you prefer.
 
 ![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
 
-3. Add the files of Problem2 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
+3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
 4. To compile, run in the terminal of repl.it (right side) the following command:
 > sh compile.sh
 5. When the compilation don't give any errors, run with the command:
@@ -74,9 +74,9 @@ This folder contains a code with some sorting algorithms for integer arrays.
 - The code will not run because there are errors.
 - There are some logical errors that will make the algorithms run wrongly.
 
-1. Fix all the errors. So the program compile.
-2. Fix all logical errors so the array is sorted from the smaller number to the greater number.
-3. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+a. Fix all the errors. So the program compile.
+b. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+c. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
 ---
 
@@ -127,9 +127,9 @@ This folder contains a code with some sorting algorithms for integer arrays.
 | 5            | 47773848000117 | 99100-8965 |
 
 
-1. Make a query that return the name of people that has credit limit above 1500.
+a. Make a query that return the name of people that has credit limit above 1500.
 
-2. Make a query that return the name of the people that are a legal person. Expected result:
+b. Make a query that return the name of the people that are a legal person. Expected result:
 
 | name                            |
 |---------------------------------|
