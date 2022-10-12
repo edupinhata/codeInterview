@@ -1,17 +1,16 @@
-
-
 public class OrderItem {
+
+    private String dishName;
+    private int amount;
+    private double price;
 
     public OrderItem(){}
 
     public OrderItem(String dishName, double price) {
         this.dishName = dishName;
         this.price = price;
+        this.amount = 1;
     }
-
-    private String dishName;
-    private int amount;
-    private double price;
 
     //region SETTERS/GETTERS
     public String getDishName() {
@@ -39,8 +38,13 @@ public class OrderItem {
     }
     //endregion
 
+    public double getTotalPrice()
+    {
+        return price*amount;
+    }
+
     public String toString()
     {
-        return this.dishName + " | " + this.price;
+        return String.format("%-10s | %2dx | %.2f", this.dishName, this.amount, getTotalPrice());
     }
 }
