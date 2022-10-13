@@ -131,6 +131,7 @@ Consider the following extra information:
 - The file `resources/CostsAndPrices` will contain the cost to prepare each dish and the price that it's sold; 
 - Now the orders will not contain the price of the dishes, only it's name.
 - The orders files will be located in  `resources/orders/`;
+- Taxes are 6% over the net income.
 
 You should:
 <ol type="a">
