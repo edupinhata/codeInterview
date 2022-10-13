@@ -30,10 +30,9 @@ For this test, you'll need:
 
 The problems should be solved in a time limit of 1 hour.
 
-
 ### **<u>Languages</u>**
 
-You can choose one of the following languages to solve the problems:
+You can choose one of the following languages to solve the problems, although the preference will be Java:
 
 - Java
 - Python
@@ -118,6 +117,24 @@ Total per person: $21.33
 
 ---
 
-## Problem 2: implementation
+## Problem 2: Implementation
 
+After make the resume of each order, now your friend wants to add a module that will resume all the Dishes information from the month.
+This module should read all the Orders, and display how many of each dish was sold. You need also to calculate:
+- the gross income,
+- how much taxes you should pay;
+- the net income after costs and taxes.
 
+Consider the following extra information:
+
+- The file `resources/CostsAndPrices` will contain the cost to prepare each dish and the price that it's sold; 
+- Now the orders will not contain the price of the dishes, only it's name.
+- The orders files will be located in  `resources/orders/`;
+
+You should:
+<ol type="a">
+<li>Think and expose the design of the solution to add these new functionalities. Use your prefered way to explain the solution considering the timeframe you have;</li> 
+<li>Implement your solution.</li> 
+</ol>
+
+**OBS:** *you can use other language, but the code with part of the solution will be Java.*
