@@ -5,30 +5,26 @@ import java.io.File;
 class Main {
     public static void main(String[] args) {
         File f = new File("inputs/Order1");
-        OrderItem[] orderItems;
+        Order order;
 
         try{
             Scanner s = new Scanner(f);
             int numDishes  = Integer.parseInt(s.nextLine());
             int numPeople = Integer.parseInt(s.nextLine());
-            double total = 0;
-
-            orderItems = new OrderItem[numDishes];
+            order = new Order(numPeople);
 
             for (int i=0; i<numDishes; i++) {
                 String[] dishesInfo = s.nextLine().split(" ");
-                OrderItem oi = new OrderItem(dishesInfo[0], Double.parseDouble(dishesInfo[1]));
-                orderItems[i] = oi;
+                // Tenta adicionar o OrderItem
+                OrderItem oiToAdd = new OrderItem(dishesInfo[0], Double.parseDouble(dishesInfo[1]));
+                OrderItem oi = order.getOrderItemByName(oiToAdd.getDishName());
+                if (oi == null)
+                    order.addNewOrderItem(oiToAdd);
+                else
+                    order.addExistingOrderItem(oi);
             }
 
-            for (int i=0; i<numDishes; i++){
-                total += orderItems[i].getPrice();
-                System.out.println(orderItems[i]);
-            }
-            System.out.println("===========================");
-            System.out.printf("Total: R$%.2f\n", total);
-            System.out.println("Num. of people: " + numPeople);
-            System.out.printf("Total per person: $%.2f\n", total/numPeople);
+            order.printOrder();
 
             s.close();
         }catch(FileNotFoundException e){
