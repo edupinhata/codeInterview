@@ -3,7 +3,8 @@
 Welcome to Thales code interview for Pleno level. The following problems were designed so we can understand a little bit more about your coding skills.
 
 For this challenge, you'll share your screen with us while you go through the problems.
-It's really important to get the Problems right, but more than this we'll check other skills like:
+
+This are the skills that we'll avaliate during the interview:
 - Problem solving skill
 - Thinking process to get to the solution
 - Strategy to get solution when you don't have the tools memorized.
