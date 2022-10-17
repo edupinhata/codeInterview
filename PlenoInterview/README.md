@@ -77,6 +77,10 @@ Dish8 20
 Dish2 6
 ```
 
+**Considerations**
+
+- You should consider that the input files will always be right and right formatted as specified, so you don't need to worry about error checking.
+
 ### Output
 
 The output should be a list with the dishes **sorted by total value of the dishes**.
