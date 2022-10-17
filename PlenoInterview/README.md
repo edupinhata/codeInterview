@@ -46,7 +46,7 @@ You can choose one of the following languages to solve the problems, although th
 
 ### Context
 
-You owns a small programming company and started to develop a software to a restaurant. 
+You owns a small programming company composed by you and an intern. You started to develop a software to a restaurant. 
 The problems will simulate a day by day routine of software development: code reviews, 
 implementation, thinking in solutions for clients requirement, etc.
 
