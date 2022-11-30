@@ -23,7 +23,7 @@ public class Ticker {
     }
 
     public String toString(){
-        return String.format("%5s [%s]: o: %.2f | c: %.2f | h:%.2f | l: %.2f | var: %.2f",
+            return String.format("%5s [%s]: o: %9.2f | c: %9.2f | h:%9.2f | l: %9.2f | var: %9.2f",
                 this.name,
                 this.date,
                 this.open,
