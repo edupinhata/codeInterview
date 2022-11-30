@@ -31,7 +31,7 @@ For this test, you'll need:
 
 ### **<u>Time limit</u>**
 
-- You'll have 15 minutes to read this document and create accounts needed;
+- You'll have 15 minutes to read this document and create accounts needed (github, repl.it);
 - The problems should be solved in a time limit of 1 hour.
 
 ### **<u>Languages</u>**
