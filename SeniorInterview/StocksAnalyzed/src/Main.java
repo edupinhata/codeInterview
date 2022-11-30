@@ -6,10 +6,14 @@ class Main {
         GrouppedRequestor gr = new GrouppedRequestor();
         ArrayList<Ticker> tickerList = gr.requestTickers("2022-11-28");
 
+        // Variacao absoluta
         tickerList.sort((t1, t2) -> {
-           if(t1.getVariation() == t2.getVariation())
-               return 0;
-           return t1.getVariation() > t2.getVariation() ? -1 : 1;
+            double var1 = Math.abs(t1.getVariation());
+            double var2 = Math.abs(t2.getVariation());
+
+            if(var1 == var2)
+                return 0;
+            return var1 > var2 ? -1 : 1;
         });
 
         int count=0;

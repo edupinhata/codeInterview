@@ -15,7 +15,7 @@ public class Ticker {
         this.close = close;
         this.higher = higher;
         this.lower = lower;
-        this.variation = Math.abs(lower-higher);
+        this.variation = higher-lower;
     }
 
     public double getVariation() {
