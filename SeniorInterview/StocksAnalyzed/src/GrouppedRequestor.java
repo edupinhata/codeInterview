@@ -31,18 +31,6 @@ public class GrouppedRequestor extends Requestor {
         return response.body();
     }
 
-    private JSONObject responseToJSON(String response){
-        JSONParser jsonParser = new JSONParser();
-        JSONObject jsonObject = new JSONObject();
-
-        try{
-            jsonObject = (JSONObject) jsonParser.parse(response);
-        } catch(Exception e){
-            System.out.println("Failed to parse response to array");
-        }
-        return jsonObject;
-    }
-
     public ArrayList<Ticker> requestTickers(String date){
         String response = request(date);
         JSONObject jsonResponse = responseToJSON(response);
@@ -67,8 +55,4 @@ public class GrouppedRequestor extends Requestor {
         return tickerList;
     }
 
-    private double ToDouble(Object numObj){
-       Number num = (Number) numObj;
-       return num.doubleValue();
-    }
 }

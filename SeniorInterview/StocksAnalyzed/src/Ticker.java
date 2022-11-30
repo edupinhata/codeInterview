@@ -1,35 +1,30 @@
+import java.util.ArrayList;
+
 public class Ticker {
 
     private String name;
-    private String date;
-    private double open;
-    private double close;
-    private double higher;
-    private double lower;
-    private double variation;
+    public ArrayList<TickerDay> tickerDays;
 
      public Ticker(String name, String date, double open, double close, double higher, double lower) {
+        tickerDays = new ArrayList<>();
         this.name = name;
-        this.date = date;
-        this.open = open;
-        this.close = close;
-        this.higher = higher;
-        this.lower = lower;
-        this.variation = higher-lower;
+        tickerDays.add(new TickerDay(date, open, close, higher,lower));
     }
 
-    public double getVariation() {
-        return variation;
+    public String getName(){
+         return name;
+    }
+
+    public void addTrickerDay(String date, double open, double close, double higher, double lower)
+    {
+        tickerDays.add(new TickerDay(date, open, close, higher,lower));
     }
 
     public String toString(){
-            return String.format("%5s [%s]: o: %9.2f | c: %9.2f | h:%9.2f | l: %9.2f | var: %9.2f",
-                this.name,
-                this.date,
-                this.open,
-                this.close,
-                this.higher,
-                this.lower,
-                this.variation);
+        StringBuilder sb = new StringBuilder(String.format("%5s: ", this.name));
+        tickerDays.forEach(tickerDay -> {
+            sb.append("\n" + tickerDay.toString());
+        });
+        return sb.toString();
     }
 }
