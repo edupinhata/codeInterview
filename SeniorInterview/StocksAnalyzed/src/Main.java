@@ -1,3 +1,4 @@
+import java.awt.dnd.DragGestureEvent;
 import java.util.ArrayList;
 import java.util.Comparator;
 
@@ -8,8 +9,8 @@ class Main {
 
         // Variacao absoluta
         tickerList.sort((t1, t2) -> {
-            double var1 = Math.abs(t1.getVariation());
-            double var2 = Math.abs(t2.getVariation());
+            double var1 = Math.abs(t1.tickerDays.get(0).variation);
+            double var2 = Math.abs(t2.tickerDays.get(0).variation);
 
             if(var1 == var2)
                 return 0;
@@ -21,6 +22,15 @@ class Main {
             System.out.println(ticker);
             if (count > 5) break;
             count++;
+        }
+
+        System.out.println("\nTOP 3 past variation");
+        System.out.println("==============================");
+
+        // Variacao de alguns dias passados
+        AggregateRequestor ar = new AggregateRequestor();
+        for (int i=0; i<3; i++) {
+            System.out.println(ar.requestTickerDays(tickerList.get(i).getName(), "2022-11-22", "2022-11-28"));
         }
     }
 }
