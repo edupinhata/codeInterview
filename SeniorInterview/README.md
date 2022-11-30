@@ -49,11 +49,35 @@ You can solve the problems in which order you prefer.
 
 - **Problem 1**: Fix program bugs.
 - **Problem 2**: Make a code review.
-- **Problem 3**: 
 
 ---
 
 ## Problem 1: Fix program bugs
+
+1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip).
+2. Create a Repl of **Java** with the name **SorterMain**
+
+![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
+
+![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
+
+3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
+4. To compile, run in the terminal of repl.it (right side) the following command:
+> sh compile.sh
+5. When the compilation don't give any errors, run with the command:
+> sh run.sh
+
+
+### <u>Problem</u>
+
+This folder contains a code with some sorting algorithms for integer arrays.
+
+- The code will not run because there are errors.
+- There are some logical errors that will make the algorithms run wrongly.
+
+a. Fix all the errors. So the program compile.
+b. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+c. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
 
 ---

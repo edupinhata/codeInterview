@@ -6,22 +6,17 @@ public class InsertionSorter implements Sorter{
         System.out.println("Sorting with Insertion Sort.");
 
         int[] sortedArray = array.clone();
-        boolean changed;
 
-        do{
-            changed = false;
-
-            for (int i=0; i<sortedArray.length-2; i++)
-            {
-                if(sortedArray[i] < sortedArray[i+1]){
-                   int tmp = sortedArray[i];
-                   sortedArray[i] = sortedArray[i+1];
-                   sortedArray[i+1] = tmp;
-                   changed = true;
-                }
+        for (int i=2; i<sortedArray.length-2; i++)
+        {
+            int j = i;
+            while(j>0 && sortedArray[j-1] < sortedArray[j]) {
+                int tmp = sortedArray[j];
+                sortedArray[j] = sortedArray[j - 1];
+                sortedArray[j - 1] = tmp;
+                j--;
             }
-        }while(changed);
-
+        }
         return sortedArray;
     }
 
