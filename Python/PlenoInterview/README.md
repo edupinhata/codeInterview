@@ -227,7 +227,8 @@ This folder contains a code with some sorting algorithms for integer arrays.
 - There are some logical errors that will make the algorithms run wrongly.
 
 a. Fix all the errors. So the program compile.
-b. Fix all logical errors so the array is sorted from the smaller number to the greater number.
+
+b. Fix all logical errors so the array is sorted from **the smaller number to the greater number**.
 
 ---
 
