@@ -1,28 +1,24 @@
 from orderItem import orderItem
+from order import order
 
-def printReceipt(orderItems, total, numPeople):
-    for item in orderItems:
-        print(item)
-    print("=====================")
-    print("Total: {:.2f}".format(total))
-    print("Num. of people: ", numPeople)
-    print("Total per person:  {:.2f}".format(total/numPeople))
-
-orderItems = []
-
-order = open("inputs/Order1")
-dishesNumber = int(order.readline())
-numPeople = int(order.readline())
+orderFile = open("inputs/Order1")
+dishesNumber = int(orderFile.readline())
+numPeople = int(orderFile.readline())
 total = 0
 
-lines = order.readlines()
+myOrder = order(numPeople)
+
+lines = orderFile.readlines()
 for line in lines:
     itemStr = line.split(" ")
     dishName = itemStr[0]
     dishPrice = float(itemStr[1])
-    item = orderItem(dishName, dishPrice)
-    orderItems.append(item)
-    total += dishPrice
+    newOrderItem = orderItem(dishName, dishPrice)
 
-printReceipt(orderItems, total, numPeople)
+    foundOrderItem = myOrder.getOrderItemByName(dishName)
+    if (foundOrderItem != None):
+        myOrder.addExistingOrderItem(newOrderItem)
+    else:
+        myOrder.addNewOrderItem(newOrderItem)
 
+myOrder.printOrder()
