@@ -22,10 +22,12 @@ For this test, you'll need:
 - Connection to the internet
 - Access to a brownser
 - Account in [github](https://github.com)
+- Account in [repl.it](https://repl.it)
 
 ### Implementation environment
 
-- If you need an implementation environment, you might use [repl.it](https://repl.it) site.
+- If you need an implementation environment, you might use [repl.it](https://repl.it) site. 
+- In problems that say you should use repl.it, it's mandatory to use it.
 
 ### **<u>Time limit</u>**
 
