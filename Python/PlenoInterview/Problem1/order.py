@@ -4,6 +4,7 @@ class order:
         self.orderItems = []
         self.numPeople = numPeople
 
+    # Functions of class
     def getOrderTotal(self):
         total = 0
         for order in self.orderItems:

@@ -15,6 +15,7 @@ for line in lines:
     dishPrice = float(itemStr[1])
     newOrderItem = orderItem(dishName, dishPrice)
 
+    # Adiciona um novo item
     foundOrderItem = myOrder.getOrderItemByName(dishName)
     if (foundOrderItem != None):
         myOrder.addExistingOrderItem(newOrderItem)
