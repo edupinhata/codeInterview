@@ -52,7 +52,9 @@ implementation, thinking in solutions for clients requirement, etc.
 You can solve the problems in which order you prefer.
 
 - **Problem 1**: Make a code review.
-- **Problem 2**: implementation. 
+- **Problem 2**: SQL and database
+- **Problem 3**: Fix the code
+- **Problem 4 (Bonus)**: implementation. 
 
 ## Problem 1: Make a code review
 
@@ -104,7 +106,7 @@ Num. of people: 2
 Total per person: $31.5
 ```
 
-The intern of your team openned this [pull request](https://github.com/edupinhata/codeInterview/pull/1/files) to improve the code already done. 
+The intern of your team openned this [pull request](https://github.com/edupinhata/codeInterview/pull/3/files) to improve the code already done. 
 Since they doesn't have much experience, they might have made some bad choices during implementation.
 Make comments in the PR that you think it's necessary to be fixed or improved.
 
@@ -138,7 +140,69 @@ Total per person: $21.33
 
 ---
 
-## Problem 2: Implementation
+## Problem 2: SQL and Database
+
+### <u>Schemas</u>
+
+**TABLE:** customers
+
+| Column       | Type                    |
+|--------------|-------------------------|
+| id (PK)      | numeric                 |
+| name         | character varying (255) |
+| street       | character varying (255) |
+| city         | character varying (255) |
+| state        | char (2)                |
+| credit_limit | numeric                 |
+
+**TABLE:** legal_person
+
+| Column            | Type              |
+|-------------------|-------------------|
+| id_customers (FK) | numeric           |
+| cnpj              | char (18)         |
+| contact           | character varying |
+
+
+
+### <u>Tables</u>
+
+**TABLE:** customers
+
+| id | name                                    | street                                | city          | state | credit_limit |
+|----|-----------------------------------------|---------------------------------------|---------------|-------|--------------|
+| 1  | Nicolas Diogo Cardoso                   | Acesso Um                             | Porto Alegre  | RS    | 475          |
+| 2  | Cecília Olivia Rodrigues                | Rua Sizuka Usuy                       | Cianorte      | PR    | 3170         |
+| 3  | Augusto Fernando Carlos Eduardo Cardoso | Rua Baldomiro Koerich                 | Palhoça       | SC    | 1067         |
+| 4  | Nicolas Diogo Cardoso                   | Acesso Um                             | Porto Alegre  | RS    | 475          |
+| 5  | Sabrina Heloisa Gabriela Barros         | Rua Engenheiro Tito Marques Fernandes | Porto Alegre  | RS    | 4312         |
+| 6  | Joaquim Diego Lorenzo Araújo            | Rua Vitorino                          | Novo Hamburgo | RS    | 2314         |
+
+
+**TABLE:** legal_person
+
+| id_customers | cnpj           | contact    |
+|--------------|----------------|------------|
+| 4            | 85883842000191 | 99767-0562 |
+| 5            | 47773848000117 | 99100-8965 |
+
+
+a. Make a query that return the name of people that has credit limit above 1500.
+
+b. Make a query that return the name of the people that are a legal person. Expected result:
+
+| name                            |
+|---------------------------------|
+| Nicolas Diogo Cardoso           |
+| Sabrina Heloisa Gabriela Barros |
+
+---
+
+## Problem 3: Fix the code
+
+---
+
+## Problem 4 (bonus): Implementation
 
 After make the resume of each order, your client wants to add a module that will resume all the Dishes information from the month.
 
