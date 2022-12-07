@@ -10,4 +10,4 @@ class orderItem:
         return self.price * self.amount
 
     def __str__(self):
-        return "{} | {}x | {:.2f}".format(self.dishName, self.amount, self.getTotalPrice())
+        return "{:<9} | {:<2}x | {:<10.2f}".format(self.dishName, self.amount, self.getTotalPrice())
