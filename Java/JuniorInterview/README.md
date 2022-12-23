@@ -27,7 +27,8 @@ For this test, you'll need:
 
 ### **<u>Time limit</u>**
 
-The problems should be solved in a time limit of 1 hour.
+- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code as well.
+- The problems should be solved in a time limit of 1 hour.
 
 
 ### **<u>Languages</u>**
