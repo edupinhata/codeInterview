@@ -54,7 +54,7 @@ You can solve the problems in which order you prefer.
 
 ### <u>Instructions</u>
 
-1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip).
+1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Java/JuniorInterview/Problem1.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
