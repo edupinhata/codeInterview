@@ -54,7 +54,7 @@ You can solve the problems in which order you prefer.
 
 ### <u>Instructions</u>
 
-1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Java/JuniorInterview/Problem1.zip).
+1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem1.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
@@ -143,7 +143,7 @@ b. Make a query that return the name of the people that are a legal person. Expe
 ## Problem 3 - Restaurant
 
 ### <u>Instructions</u>
-1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem3.zip).
+1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem3.zip).
 2. This folder will contain the input file that should be used in the program.
 
 ### <u>Problem</u>
