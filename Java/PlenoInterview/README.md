@@ -156,7 +156,7 @@ Consider the following extra information:
 - Now the orders will not contain the price of the dishes, only it's name.
 - The orders files will be located in  `resources/orders/`;
 - Taxes are 6% over the net income.
-- Resources folder can be [downloaded here](https://github.com/edupinhata/codeInterview/raw/main/PlenoInterview/Problem2/resources.zip).
+- Resources folder can be [downloaded here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview/Problem2/resources.zip).
 
 **You should:**
 <ol type="a">
@@ -166,4 +166,4 @@ Consider the following extra information:
 
 Your solution can contain only part of the solution that will fit in the timeframe that is left to finish the test.
 
-**OBS:** *you can use other language, but the implemented code with part of the solution will be Java. You can [download it here.](https://github.com/edupinhata/codeInterview/raw/main/PlenoInterview/Problem1.zip)*
+**OBS:** *you can use other language, but the implemented code with part of the solution will be Java. You can [download it here.](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview/Problem1.zip)*
