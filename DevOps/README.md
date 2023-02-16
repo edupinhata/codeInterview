@@ -36,7 +36,7 @@ Given the Test bellow, answer the 3 questions:
 
 **Task 2: Setting up a CI/CD Pipeline (20 minutes)**
 
-- Clone the Github repository: https://github.com/openai/gpt-3-examples
+- Clone the Github repository: https://github.com/kriru/firstJava 
 - Set up a CI/CD pipeline using Jenkins, Gitlab, or Mercurial (choose one)
 - Add the following steps to the pipeline:
   - Build
