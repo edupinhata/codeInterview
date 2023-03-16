@@ -47,6 +47,17 @@ Create code with a team will need code synchronization, keep different versions.
 - Show in a easy way the changes that someone is trying to apply to the new code, so people can review if the change are right;
 - etc.
 
+### 5. Learn how to read errors
+
+Modern compiles already gives a lot of information about what's wrong with the code. So you must
+learn how to read it.
+
+
+### 6. Get used to most common errors in code development
+
+- Array index out of bounds
+- 
+
 ---
 
 ## Pleno Level Code Interview
