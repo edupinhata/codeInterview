@@ -77,7 +77,7 @@ You are working in a library that will contain several sorting algorithms. You g
 
 ### <u>Problem</u>
 
-This folder contains a code with some sorting algorithms for integer arrays.
+The downloaded folder contains a code with some sorting algorithms for integer arrays.
 
 - The code will not run because there are errors.
 - There are some logical errors that will make the algorithms run wrongly.
