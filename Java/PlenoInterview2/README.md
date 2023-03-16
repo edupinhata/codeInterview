@@ -61,14 +61,14 @@ You are working in a library that will contain several sorting algorithms. You g
 
 ### <u>Instructions</u>
 
-1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem1.zip).
+1. Download the Problem 1_1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview2/Problem1_1.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
 
 ![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
 
-3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
+3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. !!! Don't upload the folder, but only the files to repl.it !!!
 4. To compile, run in the terminal of repl.it (right side) the following command:
 > sh compile.sh
 5. When the compilation don't give any errors, run with the command:
@@ -77,7 +77,7 @@ You are working in a library that will contain several sorting algorithms. You g
 
 ### <u>Problem</u>
 
-This folder contains a code with some sorting algorithms for integer arrays.
+The downloaded folder contains a code with some sorting algorithms for integer arrays.
 
 - The code will not run because there are errors.
 - There are some logical errors that will make the algorithms run wrongly.
