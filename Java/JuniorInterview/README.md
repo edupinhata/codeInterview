@@ -70,7 +70,7 @@ You can solve the problems in which order you prefer.
 
 #### Insertion Sort simulation example
 
-![](https://pt.wikipedia.org/wiki/Insertion_sort#/media/Ficheiro:Insertion-sort-example-300px.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
 ### <u>Problem</u>
 
