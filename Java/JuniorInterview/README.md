@@ -193,7 +193,7 @@ Total per person: $31.5
 ### Procedures suggestion:
 1. Create a class OrderItem with the following attributes: dishName, price, amount
 2. Create a constructor of OrderItem to receive dishName and price
-3. Read the file to get number of dishes, number of people
+3. Read the file to get number of dishes and number of people
 4. Read each dish and do: split name from price and create a OrderItem with it.
 5. Create a function that prints all the OrderItem values.
 6. The function from step 5. can calculate and display the total.
