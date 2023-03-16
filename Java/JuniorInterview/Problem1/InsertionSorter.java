@@ -7,13 +7,11 @@ public class InsertionSorter implements Sorter{
 
         int[] sortedArray = array.clone();
 
-        for (int i=2; i<sortedArray.length-2; i++)
+        for (int i=1; i<sortedArray.length-2; i++)
         {
             int j = i;
             while(j>0 && sortedArray[j-1] < sortedArray[j]) {
-                int tmp = sortedArray[j];
-                sortedArray[j] = sortedArray[j - 1];
-                sortedArray[j - 1] = tmp;
+                Arrays.SwapTwoNumbers(sortedArray, j, j-1);
                 j--;
             }
         }

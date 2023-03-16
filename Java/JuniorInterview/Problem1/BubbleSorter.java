@@ -9,11 +9,9 @@ public class BubbleSorter implements Sorter{
 
        do {
            moved = false;
-           for (int i = 0; i < sortedArray.length; i++) {
+           for (int i = 0; i < sortedArray.length-1; i++) {
                if (sortedArray[i] > sortedArray[i+1]){
-                   int tmp = sortedArray[i];
-                   sortedArray[i] = sortedArray[i+1];
-                   sortedArray[i+1] = tmp;
+                   Arrays.SwapTwoNumbers(sortedArray, i, i+1);
                    moved = true;
                }
            }
