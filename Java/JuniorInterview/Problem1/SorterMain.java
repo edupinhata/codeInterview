@@ -22,7 +22,7 @@ class SorterMain {
         for (int i=0; i<array.length; i++){
            arrayStr += array[i];
            if (i<array.length-1)
-               arrayStr += ", ";
+               arrayStr += ", "
         }
         System.out.println(arrayStr);
     }
