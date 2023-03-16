@@ -61,12 +61,16 @@ You can solve the problems in which order you prefer.
 
 ![Create_replit2](https://user-images.githubusercontent.com/6368537/191852909-b05100ba-51bb-4ceb-a6af-0b2d464813fa.PNG)
 
-3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.
+3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.  !!! Don't upload the folder, but only the files to repl.it !!!
 4. To compile, run in the terminal of repl.it (right side) the following command:
 > sh compile.sh
 5. When the compilation don't give any errors, run with the command:
 > sh run.sh
 
+
+#### Insertion Sort simulation example
+
+![](https://pt.wikipedia.org/wiki/Insertion_sort#/media/Ficheiro:Insertion-sort-example-300px.gif)
 
 ### <u>Problem</u>
 
@@ -185,6 +189,11 @@ Dish2 | 1x | 6
 Total: $63
 Total per person: $31.5
 ```
+
+### Procedures:
+1. Read the numbers
+
+
 <details>
     <summary>Example of how to read files in Java</summary>
 
