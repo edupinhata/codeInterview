@@ -61,7 +61,7 @@ You are working in a library that will contain several sorting algorithms. You g
 
 ### <u>Instructions</u>
 
-1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem1.zip).
+1. Download the Problem 1_1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview2/Problem1_1.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
