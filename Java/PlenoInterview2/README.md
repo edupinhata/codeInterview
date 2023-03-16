@@ -53,7 +53,7 @@ You can solve the problems in which order you prefer.
 
 - **Problem 1_1**: Fix the code.
 - **Problem 2_1**: Make a code review.
-- **Problem 2_2**: implementation. 
+- **Problem 2_2**: Implementation. 
 
 ## Problem 1_1 - Fix the code
 
