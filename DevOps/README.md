@@ -8,7 +8,7 @@ For this challenge, you'll share your screen with us while you go through the pr
 
 ### Time limit
 
-The problems should be solved in a time limit of 1 hour.
+The test should be discussed in 1 hour.
 
 ### Search
 
