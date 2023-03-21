@@ -89,7 +89,7 @@ c. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ## Problem 2 - SQL
 
-1. Create a SQL Repl of SQLite.
+1. Create a new Repl of type **SQLite**.
 2. Paste the following code and execute it:
 ```vim
 CREATE TABLE customers (
