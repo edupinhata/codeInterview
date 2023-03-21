@@ -94,6 +94,9 @@ c. (Optional) After fix the errors, you can improve the code quality to make it 
 1. Create a new Repl of type **SQLite**.
 2. Paste the following code and execute it:
 ```vim
+DROP TABLE IF EXISTS legal_person;
+DROP TABLE  IF EXISTS customers;
+
 CREATE TABLE customers (
   id INT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
