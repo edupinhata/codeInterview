@@ -89,6 +89,8 @@ c. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ## Problem 2 - SQL
 
+### Instructions
+
 1. Create a new Repl of type **SQLite**.
 2. Paste the following code and execute it:
 ```vim
@@ -145,6 +147,7 @@ This code will add the following tables:
 | 4            | 85883842000191 | 99767-0562 |
 | 5            | 47773848000117 | 99100-8965 |
 
+### Questions
 
 a. Make a query that return the name of people that has credit limit above 1500.
 
