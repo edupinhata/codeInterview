@@ -126,8 +126,6 @@ VALUES (4, '85883842000191', '99767-0562'),
 
 This code will add the following tables:
 
-### <u>Tables</u>
-
 **TABLE:** customers
 
 | id | name                                    | street                                | city          | state | credit_limit |
