@@ -89,30 +89,45 @@ c. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ## Problem 2 - SQL
 
-### <u>Schemas</u>
+### Instructions
 
-**TABLE:** customers
+1. Create a new Repl of type **SQLite**.
+2. Paste the following code and execute it:
+```vim
+DROP TABLE IF EXISTS legal_person;
+DROP TABLE  IF EXISTS customers;
 
-| Column       | Type                    |
-|--------------|-------------------------|
-| id (PK)      | numeric                 |
-| name         | character varying (255) |
-| street       | character varying (255) |
-| city         | character varying (255) |
-| state        | char (2)                |
-| credit_limit | numeric                 |
+CREATE TABLE customers (
+  id INT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  street VARCHAR(255) NOT NULL,
+  city VARCHAR(255) NOT NULL,
+  state VARCHAR(2) NOT NULL,
+  credit_limit INT
+);
 
-**TABLE:** legal_person
+INSERT INTO customers (id, name, street, city, state, credit_limit)
+VALUES (1, 'Nicolas Diogo Cardoso', 'Acesso Um', 'Porto Alegre', 'RS', 475),
+       (2, 'Cecília Olivia Rodrigues', 'Rua Sizuka Usuy', 'Cianorte', 'PR', 3170),
+       (3, 'Augusto Fernando Carlos Eduardo Cardoso', 'Rua Baldomiro Koerich', 'Palhoça', 'SC', 1067),
+       (4, 'Nicolas Diogo Cardoso', 'Acesso Um', 'Porto Alegre', 'RS', 475),
+       (5, 'Sabrina Heloisa Gabriela Barros', 'Rua Engenheiro Tito Marques Fernandes', 'Porto Alegre', 'RS', 4312),
+       (6, 'Joaquim Diego Lorenzo Araújo', 'Rua Vitorino', 'Novo Hamburgo', 'RS', 2314);
 
-| Column            | Type              |
-|-------------------|-------------------|
-| id_customers (FK) | numeric           |
-| cnpj              | char (18)         |
-| contact           | character varying |
 
+CREATE TABLE legal_person (
+  id_customers INT NOT NULL,
+  cnpj VARCHAR(14) PRIMARY KEY,
+  contact VARCHAR(20) NOT NULL,
+  FOREIGN KEY (id_customers) REFERENCES customers(id)
+);
 
+INSERT INTO legal_person (id_customers, cnpj, contact)
+VALUES (4, '85883842000191', '99767-0562'),
+       (5, '47773848000117', '99100-8965');
+```
 
-### <u>Tables</u>
+This code will add the following tables:
 
 **TABLE:** customers
 
@@ -133,15 +148,16 @@ c. (Optional) After fix the errors, you can improve the code quality to make it 
 | 4            | 85883842000191 | 99767-0562 |
 | 5            | 47773848000117 | 99100-8965 |
 
+### Questions
 
 a. Make a query that return the name of people that has credit limit above 1500.
 
-b. Make a query that return the name of the people that are a legal person. Expected result:
+b. Make a query that return the name and cnpj of the people that are a legal person. Expected result:
 
-| name                            |
-|---------------------------------|
-| Nicolas Diogo Cardoso           |
-| Sabrina Heloisa Gabriela Barros |
+| name                            | cnpj            |
+|---------------------------------|-----------------|
+| Nicolas Diogo Cardoso           | 85883842000191  |
+| Sabrina Heloisa Gabriela Barros | 47773848000117  |
 
 
 ---

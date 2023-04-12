@@ -138,10 +138,10 @@ a. Make a query that return the name of people that has credit limit bellow 1000
 
 b. Make a query that return the name and cnpj of the people that are a legal person. Expected result:
 
-| name                            |
-|---------------------------------|
-| Nicolas Diogo Cardoso           |
-| Sabrina Heloisa Gabriela Barros |
+| name                            |   cnpj         |
+|---------------------------------|----------------|
+| Nicolas Diogo Cardoso           | 85883842000191 |
+| Sabrina Heloisa Gabriela Barros | 47773848000117 |
 
 
 ---
