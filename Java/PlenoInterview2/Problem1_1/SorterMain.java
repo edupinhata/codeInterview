@@ -13,7 +13,7 @@ class SorterMain {
         PrintArray(sortedArray);
 
         sorter = new InsertionSorter();
-        sortedArray = sorter.Sort(array);
+        int sortedArray[] = sorter.Sort(array);
         PrintArray(sortedArray);
     }
 

@@ -194,7 +194,7 @@ Consider the following extra information:
 - Now the orders will not contain the price of the dishes, only it's name.
 - The orders files will be located in  `resources/orders/`;
 - Taxes are 6% over the net income.
-- Resources folder can be [downloaded here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview/Problem2/resources.zip).
+- Resources folder can be [downloaded here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview2/Problem2_2/resources.zip).
 
 **You should:**
 <ol type="a">
