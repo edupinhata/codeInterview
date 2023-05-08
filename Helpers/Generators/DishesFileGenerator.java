@@ -2,7 +2,24 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Random;
 
-class FileGenerator {
+/*
+This program generates input files in the format used by the following problems:
+- I_Problem_2_1
+
+Output example:
+```
+6
+1
+Dish2
+Dish3
+Dish3
+Dish9
+Dish2
+Dish2
+```
+ */
+
+class DishesFileGenerator {
     public static void main(String[] args) {
         int filesToCreate = 60;
         int currentFile = 1;
@@ -17,7 +34,6 @@ class FileGenerator {
         }
     }
 }
-
 
 class OrderCreator {
     private int numMaxDishes;
