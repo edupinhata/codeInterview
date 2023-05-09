@@ -65,7 +65,7 @@ d. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ### <u>Setup Instructions</u>
 
-1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_Problem_1_1/source.zip).
+1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem1.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
