@@ -106,5 +106,5 @@ class TestGenerator:
         out.writelines("\n\n---\n")
 
 
-tg = TestGenerator('Test.md')
+tg = TestGenerator('README.md')
 tg.generate_test()
