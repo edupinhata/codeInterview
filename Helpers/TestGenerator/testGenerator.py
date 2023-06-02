@@ -1,32 +1,13 @@
+import math
 import os
 import random
 import shutil
-from enum import Enum
+import zipfile
 
-PROBLEMS_PATH = "../../Problems/"
-HEADER_PATH = PROBLEMS_PATH + 'TestHeader.md'
-PROBLEMS_MAX_LEVEL = 10
-TEST_NUM_PROBLEMS = 3
-TEST_MAX_TYPES_PER_PROBLEM = 1
-MIN_TEST_LEVEL = 1
-MAX_TEST_LEVEL = 2
-
-
-class ProblemType(str, Enum):
-    CR = 'CodeReview'
-    DB = 'Database'
-    FTC = 'FixTheCode'
-    I = 'Implementation'
-
-
-class Problem:
-
-    def __init__(self, problem_folder_name):
-        splitted_problem = problem_folder_name.split('_')
-        self.name = problem_folder_name
-        self.path = r"{}{}/{}".format(PROBLEMS_PATH, ProblemType[splitted_problem[0]], problem_folder_name)
-        self.level = int(splitted_problem[1])
-        self.description = splitted_problem[2]
+from testProblems import TestProblems
+from constants import *
+from problemType import ProblemType
+from problem import Problem
 
 
 class TestGenerator:
@@ -34,20 +15,12 @@ class TestGenerator:
     def __init__(self, output_file):
         self.test_num_problems = TEST_NUM_PROBLEMS
         self.test_max_types_per_problem = TEST_MAX_TYPES_PER_PROBLEM
-        self.problems = {}
-        self.test_dir = r'./NewTest'
-        self.output_file = "{}/{}".format(self.test_dir, output_file)
+        self.test_dir_name = "NewTest"
+        self.test_dir_path = r"./{}".format(self.test_dir_name)
+        self.output_file = "{}/{}".format(self.test_dir_path, output_file)
         # Load all problems
-        for type in ProblemType:
-            self.problems[type] = self.get_all_problems(type)
+        self.problems = TestProblems()
 
-
-    def get_all_problems(selfself, type):
-        problems = []
-        for dir in os.listdir(PROBLEMS_PATH + type):
-           problems.append(Problem(dir))
-
-        return problems
 
     def get_random_problem_per_level(self, problem_type, level_lower, level_higher):
         if level_lower < 1:
@@ -67,12 +40,13 @@ class TestGenerator:
 
     def generate_test(self):
         types = []
+        print('Init generation')
 
-        os.makedirs(self.test_dir, exist_ok=True)
+        os.makedirs(self.test_dir_path, exist_ok=True)
 
         self.write_file(HEADER_PATH)
 
-        for max_types in range(self.test_max_types_per_problem):
+        for max_types in range(math.ceil(self.test_num_problems/len(ProblemType))):
             for type in ProblemType:
                 types.append(type.value)
 
@@ -81,14 +55,33 @@ class TestGenerator:
             problem = self.get_random_problem_per_level(type_to_select, MIN_TEST_LEVEL, MAX_TEST_LEVEL)
             problem_readme = problem.path + '/README.md'
             self.write_file(problem_readme, True)
-            print('PATH: ' + problem.path)
-            print('self.test_dir: ' + self.test_dir)
 
-            dst_problem_path = "{}/{}".format(self.test_dir, problem.name)
-            src_source_path = "{}/source".format(problem.path)
-            if os.path.isdir(src_source_path):
-                os.mkdir(dst_problem_path)
-                shutil.copytree(src_source_path, dst_problem_path , dirs_exist_ok=True)
+            print('PATH: ' + problem.path)
+            print('self.test_dir: ' + self.test_dir_path)
+
+            self.copy_problem_dir(problem)
+
+        self.zip_test(self.test_dir_path + "/Test.zip", self.test_dir_path)
+
+    def copy_problem_dir(self, problem):
+        dst_problem_path = "{}/{}".format(self.test_dir_path, problem.name)
+        src_source_path = "{}/source".format(problem.path)
+        if os.path.isdir(src_source_path):
+            os.mkdir(dst_problem_path)
+            shutil.copytree(src_source_path, dst_problem_path, dirs_exist_ok=True)
+
+    def zip_test(self, dst_dir_zipname, dir_to_zip):
+        with zipfile.ZipFile(dst_dir_zipname, mode='w') as archive:
+            for foldername, subfolders, filenames in os.walk(dir_to_zip):
+                count = 1
+                for filename in filenames:
+                    print("Writing {}/{} - {}".format(count, len(filenames), filename))
+                    if filename[-4:] == ".zip":
+                        continue
+                    file_path = os.path.join(foldername, filename)
+                    archive.write(file_path, arcname=os.path.relpath(file_path, dir_to_zip))
+                    count += 1
+
 
     def write_file(self, file_path, append=False):
         option = 'a' if append else 'w'
