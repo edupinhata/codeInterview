@@ -197,6 +197,7 @@ Total per person: $31.5
 ### <u>Instructions</u>
 1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem3.zip).
 2. This folder will contain the input file that should be used in the program.
+3. Implement a program that reads an input file and print in the console the result as said above.
 
 
 <details>
