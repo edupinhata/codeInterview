@@ -150,74 +150,83 @@ Process finished with exit code 0
 
 ---
 
-## Implementation: Restaurant
+## Implementation:  Restaurant 2
 
+### <u>Context</u>
 
-### <u>Problem</u>
+In your company, there is a module that resumes information about orders taken from from waiters in a restaurant and resume the information.
+The example bellow of inputs and outputs of this program:
 
-A local restaurant wants to modernize how they work now that the son of the owner will
-manage it. He is your friend so he asks you to make a system that will resume the
-orders information and display to the customers as required.
-He will take each client order in a list that follows the specific rules:
+### Input
 
 - The first line will have the number **N** of dishes noted by the waiter;
 - The second line will have the number **P** of people in the table;
-- The next **N** lines will have the name of the dish and the price of it;
+- The next **N** lines will have the name of the dish and the price of it separated by one space;
 
-*Example of input:*
 ```vim
 5
 2
 Dish1 15
-Dish3 7
+Dish3 7.5
 Dish1 15
 Dish8 20
 Dish2 6
 ```
 
-The output should be a list with the dishes sorted by total value of the dishes.
-Each line of this list will gather the equal dishes, display the amount of dishes
-order and the total.
-After all items, make a separator (e.g. ====================), and add the following
-information: value of the tab, value for each person. The example above will
-have the following result:
+**Considerations**
 
-*Output for example input:*
+- You should consider that the input files will always be right and right formatted as specified, so you don't need to worry about error checking.
+
+### Output
+
+The output is a list with the dishes **sorted by total value of the dishes**.
+
+The output has the following structure:
+
+- For each dish:
+    - `name of dish`  |  `amount of this dish ordered` | `total price for all of this dishes`
+- separator (e.g. `=============================`)
+- Total of all orders
+- Number of people in the table
+- Total per person when tab is split equally per person
+
+The input example above will have the following result:
 
 ```vim
-Dish1 | 2x | 30
-Dish8 | 1x | 20
-Dish3 | 1x | 7
-Dish2 | 1x | 6
+Dish1 | 2x | 30.00
+Dish8 | 1x | 20.00
+Dish3 | 1x | 7.50
+Dish2 | 1x | 6.00
 =====================
-Total: $63
-Total per person: $31.5
+Total: $63.50
+Num. of people: 2
+Total per person: $31.75
 ```
 
-### <u>Instructions</u>
-1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem3.zip).
-2. This folder will contain the input file that should be used in the program.
 
+### <u>Problem</u>
 
-<details>
-    <summary>Example of how to read files in Java</summary>
+Now, your client wants to add a module that will resume all the Dishes information from the month.
 
-```vim
-import java.util.Scanner;
-import java.io.FileNotFoundException; 
-import java.io.File;
+This module should read all the Orders, and display how many of each dish was sold. You need also to calculate:
+- the gross income;
+- the net income after costs;
+- how much taxes you should pay.
 
-class Main {
-  public static void main(String[] args) {
-   File f = new File("fileToRead.txt");
-    try{
-      Scanner s = new Scanner(f);
-      System.out.println(s.nextLine());
-      
-    }catch(FileNotFoundException e){
-      e.printStackTrace();
-    }
-  }
-}
-```
-</details>
+Consider the following extra information:
+
+- The file `resources/CostsAndPrices` will contain the cost to prepare each dish and the price that it's sold;
+- Now the orders will not contain the price of the dishes, only it's name.
+- The orders files will be located in  `resources/orders/`;
+- Taxes are 6% over the net income.
+- Resources folder can be [downloaded here](https://github.com/edupinhata/codeInterview/raw/main/Problems/Implementation/I_2_restaurant2/resources.zip).
+
+**You should:**
+<ol type="a">
+<li>Think and expose the design of the solution to add these new functionalities. Use your prefered way to explain the solution considering the timeframe you have;</li> 
+<li>Implement your solution.</li> 
+</ol>
+
+Your solution can contain only part of the solution that will fit in the timeframe that is left to finish the test.
+
+**OBS:** *you can use other language, but the implemented code with part of the solution will be Java. The resources folder also contains the Java implementation of it.
