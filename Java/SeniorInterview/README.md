@@ -203,7 +203,6 @@ Num. of people: 2
 Total per person: $31.75
 ```
 
-
 ### <u>Problem</u>
 
 Now, your client wants to add a module that will resume all the Dishes information from the month.
