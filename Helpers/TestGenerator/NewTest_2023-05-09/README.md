@@ -257,4 +257,4 @@ Consider the following extra information:
 
 Your solution can contain only part of the solution that will fit in the timeframe that is left to finish the test.
 
-**OBS:** *you can use other language, but the implemented code with part of the solution will be Java. The resources folder also contains the Java implementation of it.
+**OBS:** *you can use other language, but the implemented code with part of the solution will be Java. You can download it [here](https://github.com/edupinhata/codeInterview/raw/main/Java/PlenoInterview/Problem1.zip)
