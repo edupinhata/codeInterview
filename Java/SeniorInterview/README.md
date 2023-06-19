@@ -55,7 +55,7 @@ You can solve the problems in the following order.
 
 ## Problem 1: Fix program bugs
 
-1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/JuniorInterview/Problem1.zip).
+1. Download the Problem 1 folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/source.zip).
 2. Create a Repl of **Java** with the name **SorterMain**
 
 ![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
