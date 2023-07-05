@@ -45,6 +45,6 @@ There is no extra points for an specific language, so use the one you feel more
 
 ## Problems:
 
-1. [Fix the Code](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/README.md)
-2. [Database](https://github.com/edupinhata/codeInterview/raw/main/Problems/Database/DB_1_simple-queries/README.md)
-3. [Implementation](https://github.com/edupinhata/codeInterview/raw/main/Problems/Implementation/I_1_restaurant/README.md)
+1. [Fix the Code](https://github.com/edupinhata/codeInterview/tree/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python)
+2. [Database](https://github.com/edupinhata/codeInterview/tree/main/Problems/Database/DB_1_simple-queries)
+3. [Implementation](https://github.com/edupinhata/codeInterview/tree/main/Problems/Implementation/I_1_restaurant)
