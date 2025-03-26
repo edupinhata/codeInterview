@@ -44,8 +44,8 @@ You can choose one of the following languages to solve the problems:
 
 You can solve the problems in which order you prefer.
 
-- [Problem 1: Fix the code](../../Problems/FixTheCode/FTC_1_sorting-algorithms/java)
-- [Problem 2: create SQL queries](../../Problems/Database/DB_1_simple-queries)
-- [Problem 3: implementation](../../Problems/Implementation/I_1_restaurant)
+- [Problem 1: Fix the code](../../Problems/FixTheCode/FTC_1_sorting-algorithms/java){:target="_blank"}
+- [Problem 2: create SQL queries](../../Problems/Database/DB_1_simple-queries){:target="_blank"}
+- [Problem 3: implementation](../../Problems/Implementation/I_1_restaurant){:target="_blank"}
 
 
