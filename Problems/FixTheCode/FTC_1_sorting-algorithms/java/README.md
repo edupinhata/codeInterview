@@ -20,7 +20,7 @@ d. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ### <u>Setup Instructions</u>
 
-1. Download the Source folder [clicking here](./source.zip)
+1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/FixTheCode)
 
 2. Create a Repl of **Java** with the name **SorterMain**
 
