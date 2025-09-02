@@ -17,7 +17,7 @@ You'll have 4 sections with different types of questions:
 3. Implementation
 4. System Design
 
-You have 1 hour to go as far as possible in the test providing good quality solutions.
+You have 1 hour to go as far as possible in the test providing good quality solutions. It's important not only give the result, but elaborate and describe the though process to get to the solution.
 
 ## 1. Logic and Problem Solving
 
