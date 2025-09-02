@@ -40,6 +40,8 @@ What is the minimum number of drops required to find the highest floor from whic
 
 ## 3. Implementation
 
+**Tip:** you may use [repl.it](https://replit.com) as an online editor to develop the code.
+
 - [Problem 3.1: Calculate Factorial](../../Problems/Implementation/I_5_calculateFactorial/README.md)
 - [Problem 3.2: findThe3BiggestNumbers](../../Problems/Implementation/I_6_findThe3BiggestNumbers/README.md)
 
