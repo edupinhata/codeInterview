@@ -20,3 +20,4 @@ Problems that need to be solved using implementation.
 | I_5_calculate_factorial        | Intern       | Calculate the value of factorial.                     |
 | I_6_find_the_3_biggest_numbers | Intern       | Find 3 biggest numbers from a list.                   |
 | I_7_invert_string              | Intern       | Revert a string.                                      |
+| I_8_fizzBuzz                   | Intern       | Print with condition.                                 |

@@ -4,6 +4,41 @@ Resources used to make code interview.
 
 Each company has its own standard of the amount of knowledge that each level requires. These resources are based in my experience and in the current company that I work on.
 
+- [Intern Level Interview](#intern-level-coding-interview--candidate-guide)
+- [Junior Level Interview](#junior-level-code-interview)
+- [Pleno Level Interview](#pleno-level-code-interview)
+
+## Intern-Level Coding Interview — Candidate Guide
+
+### Who this is for
+
+Candidates currently enrolled in a Computer Science or related undergraduate/graduate program. We assume you’ve taken introductory courses in logic, programming fundamentals, and basic mathematics.
+
+You are not expected to have taken advanced courses (e.g., databases, compilers, operating systems, or deep OOP). The interview focuses on general problem solving and foundational coding skills.
+
+### What to expect
+
+The interview mixes conceptual and hands-on questions, using common languages such as **Java**, **Python**, **C**, or **C#** (pick the one you’re most comfortable with).
+
+We’ll cover four areas:
+
+#### 1. Logic & Problem Solving
+
+Short puzzles or real-world scenarios where you’ll outline a clear approach before coding. We’re looking for how you understand the problem, break it down, and justify steps.
+
+#### 2. Programming Theory (Foundations)
+
+Questions about core language constructs and why/when to use them—for example: variables, control flow (if/loops), functions/methods and basic data structures (arrays/lists).
+
+#### 3. Implementation
+
+Small programming tasks solvable with straightforward algorithms and standard libraries. Emphasis on correctness, readability, and edge cases, not on advanced frameworks.
+
+#### 4. Basic System Design (Feature Thinking)
+
+A lightweight exercise to describe a simple feature (e.g., a to-do list). We’ll discuss requirements, simple components, data flow, and trade-offs at a beginner level.
+
+
 ## Junior Level Code Interview
 
 Someone that would have most of the knowledge about software development that the college requires to learn. This includes:
