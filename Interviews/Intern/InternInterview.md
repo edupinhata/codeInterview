@@ -29,7 +29,7 @@ Four people must cross a bridge at night. They have one torch, and the bridge ca
 What is the fastest time all four can cross?
 
 ### 1.3. The Two Egg Problem
-You are in a 100-story building. You have two identical eggs. The eggs may or may not break if dropped from a given floor. Once an egg breaks, it can’t be reused.
+You are in a 100-stores building. You have two identical eggs. The eggs may or may not break if dropped from a given floor. Once an egg breaks, it can’t be reused.
 What is the minimum number of drops required to find the highest floor from which you can drop an egg without breaking it?
 
 ## 2. Programming Theory
