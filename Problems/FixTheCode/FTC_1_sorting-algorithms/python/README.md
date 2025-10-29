@@ -23,13 +23,13 @@ e. (Optional) After fix the errors, you can improve the code quality to make it 
 ### <u>Setup Instructions</u>
 
 1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/source.zip).
-2. Create a Repl of **Python** with any name you want.
+2. Create a **Pyhton templeate** in  of **Codeanywhere** with any name you want.
 
-![Create_replit](https://user-images.githubusercontent.com/6368537/191853628-4207221c-39f4-4950-afd4-ce33ce8fb15c.PNG)
+![Create_codeanywhere](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/images/codeanywhere_create.png)
 
-3. Add the files of the source folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. 
+3. Add the files of the source folder in the project created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. 
   
-`Don't upload the folder, but only the files to repl.it !!!`
+`Don't upload the folder, but only the files !!!`
 
 4. Press the **Run** button to execute the code.
 
