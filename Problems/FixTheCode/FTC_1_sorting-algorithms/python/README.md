@@ -33,12 +33,7 @@ c. Fix all semantic errors so the array is sorted from the **smaller number to t
 
 d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
 
-<<<<<<< Updated upstream
-e. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
-
 ---
-=======
->>>>>>> Stashed changes
 
 ### <u>Setup instructions For browser development</u>
 
