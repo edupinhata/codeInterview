@@ -16,6 +16,7 @@ Among the sorting algorithms, there are the Bubble Sorter and the Insertion Sort
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
+---
 
 ### <u>The Problem</u>
 
@@ -34,6 +35,7 @@ d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
 
 e. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
+---
 
 ### <u>Setup instructions For browser development</u>
 
