@@ -38,6 +38,8 @@ b. Make a query that return the **name** and **cnpj** of the people that are a l
 
 This tables may be added by the following instruction:
 
+---
+
 ### <u>Setup Instructions</u>
 
 If you want to create a local SQL implementation to test, use the following code to create the tables described above.
