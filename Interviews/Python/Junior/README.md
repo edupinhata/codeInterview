@@ -22,7 +22,8 @@ For this test, you'll need:
 
 ### Implementation environment
 
-- All problems will be implemented in the [Codeanywhere](https://app.codeanywhere.com/) site.
+- All problems will be implemented in a local environment the [Codeanywhere](https://app.codeanywhere.com/) site.
+- No AI support is allowed.
 
 ### **<u>Time limit</u>**
 
@@ -36,7 +37,9 @@ You can choose one of the following languages to solve the problems:
 
 - Java
 - Python
+- C
 - C++
+- C#
 - Javascript (Node) 
 
 There is no extra points for an specific language, so use the one you feel more 
