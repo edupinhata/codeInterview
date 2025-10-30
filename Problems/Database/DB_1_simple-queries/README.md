@@ -40,8 +40,8 @@ This tables may be added by the following instruction:
 
 ### <u>Setup Instructions</u>
 
-1. Create a new [Repl](https://replit.com/) of type **SQLite**.
-2. Paste the following code and execute it:
+If you want to create a local SQL implementation to test, use the following code to create the tables described above.
+
 ```vim
 DROP TABLE IF EXISTS legal_person;
 DROP TABLE  IF EXISTS customers;
