@@ -1,8 +1,25 @@
 ## Fix The Code: Sorting algorithms
 
-### <u>Problem</u>
 
-The source folder contains a code with some [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm) for integer arrays.
+### <u>Context</u>
+
+The source folder contains a code with some [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm) for integer arrays, which are algorithms that organize elements by how each element is compared to other. For example, we can sort an integer array from the smaller to the greater number. Or we can sort strings alphabetically.
+
+Among the sorting algorithms, there are the Bubble Sorter and the Insertion Sorter. The following gif example shows visualy how these algorithms works and how they're implemented in the code of this problem
+
+#### <u>Examples</u>
+
+##### Bubble Sort simulation example
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
+##### Insertion Sort simulation example
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+---
+
+### <u>Problem</u>
 
 In this problem:
 - There are syntax error that will prevent the program to be compiled.
@@ -17,8 +34,18 @@ c. Fix all semantic errors so the array is sorted from the *smaller number to th
 
 d. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
+---
 
 ### <u>Setup Instructions</u>
+
+Follow the examinator instructions to use the Codeanywhere setup.
+
+
+---
+
+### <u>Deprecated Setup Instructions - WIP</u>
+
+**Due to replit changes, this setup instructions is not valid anymore. Don't need to read further.**
 
 1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/FixTheCode)
 
@@ -51,13 +78,3 @@ Add the Title as **SorterMain** and click in **Create App**.
 
 4. To compile and run, run in repl.it shell the following command:
 > sh ./compile.sh; sh ./run.sh
-
-### <u>Examples</u>
-
-#### Bubble Sort simulation example
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
-
-#### Insertion Sort simulation example
-
-![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
