@@ -6,17 +6,18 @@ The source folder contains a code with some [sorting algorithms](https://en.wiki
 
 Among the sorting algorithms, there are the Bubble Sorter and the Insertion Sorter. The following gif example shows visualy how these algorithms works and how they're implemented in the code of this problem
 
-### <u>Examples</u>
+#### <u>Examples</u>
 
-#### Bubble Sort simulation example
+##### Bubble Sort simulation example
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
-#### Insertion Sort simulation example
+##### Insertion Sort simulation example
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
-### <u>Problem</u>
+
+### <u>The Problem</u>
 
 In this problem:
 - There are syntax error that will raise some errors
