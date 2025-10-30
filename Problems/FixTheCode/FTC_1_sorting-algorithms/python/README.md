@@ -1,8 +1,22 @@
 ## Fix The Code: Sorting algorithms
 
-### <u>Problem</u>
+### <u>Context</u>
 
-The source folder contains a code with some [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm) for integer arrays.
+The source folder contains a code with some [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm) for integer arrays, which are algorithms that organize elements by how each element is compared to other. For example, we can sort a number array from the smaller to the greater number. Or we can sort strings alphabetically.
+
+Among the sorting algorithms, there are the Bubble Sorter and the Insertion Sorter. The following gif example shows visualy how these algorithms works and how they're implemented in the code of this proble.
+
+### <u>Examples</u>
+
+#### Bubble Sort simulation example
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
+#### Insertion Sort simulation example
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+### <u>Problem</u>
 
 In this problem:
 - There are syntax error that will raise some errors
@@ -34,12 +48,3 @@ e. (Optional) After fix the errors, you can improve the code quality to make it 
 4. Press the **Run** button to execute the code.
 
 
-### <u>Examples</u>
-
-#### Bubble Sort simulation example
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
-
-#### Insertion Sort simulation example
-
-![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
