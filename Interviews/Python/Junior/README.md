@@ -37,7 +37,9 @@ You can choose one of the following languages to solve the problems:
 
 - Java
 - Python
+- C
 - C++
+- C#
 - Javascript (Node) 
 
 There is no extra points for an specific language, so use the one you feel more 
