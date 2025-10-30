@@ -34,7 +34,7 @@ d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
 e. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
 
 
-### <u>Setup Instructions</u>
+### <u>Setup instructions For browser development</u>
 
 1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/source.zip).
 2. Create a **Pyhton templeate** in  of **Codeanywhere** with any name you want.
