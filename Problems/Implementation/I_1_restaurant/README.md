@@ -53,7 +53,7 @@ Total per person: $31.5
 7. Sort the dishes by price.
 
 ### <u>Instructions</u>
-1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Java/JuniorInterview/Problem3.zip).
+1. Download the Problem 3 folder for the needed resources [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Problems/Implementation/I_1_restaurant/inputFiles.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/Implementation).
 2. This folder will contain the input file that should be used in the program.
 
 
