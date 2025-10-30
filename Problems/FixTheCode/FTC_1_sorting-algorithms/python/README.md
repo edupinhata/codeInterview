@@ -41,10 +41,13 @@ e. (Optional) After fix the errors, you can improve the code quality to make it 
 
 ![Create_codeanywhere](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/images/codeanywhere_create.png)
 
-3. Add the files of the source folder in the project created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. 
+![Create_codeanywhere](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/images/codeanywhere_2.png)
+
+
+3. Delete the current files and add the files of the source folder in the project created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. 
   
 `Don't upload the folder, but only the files !!!`
 
-4. Press the **Run** button to execute the code.
+4. Press the **Run** button in the top right corner to execute the code.
 
 
