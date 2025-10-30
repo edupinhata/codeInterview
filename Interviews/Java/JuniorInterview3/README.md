@@ -23,7 +23,7 @@ For this test, you'll need:
 
 ### Implementation environment
 
-- All problems will be implemented in the [repl.it](https://repl.it) site.
+- All problems will be implemented in local environment or in the [Codeanywhere](https://app.codeanywhere.com/) site.
 
 ### **<u>Time limit</u>**
 
