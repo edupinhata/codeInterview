@@ -40,7 +40,9 @@ d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
 ### <u>Setup instructions For local development</u>
 
 1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/source.zip).
-2. Execute using `python main.py`
+2. Execute using `python main.py` or `python3 main.py` depending on the version that you have.
+
+OBS: you can use your favorite IDE.
 
 ---
 

@@ -32,49 +32,24 @@ b. Fix all runtime errors so the program run without crash.
 
 c. Fix all semantic errors so the array is sorted from the *smaller number to the greater number*.
 
-d. (Optional) After fix the errors, you can improve the code quality to make it easier to read, more organized, or even more optimized.
+d. At the end, the main function will execute both Bubble sorter and Insertion sorter algorithms.
 
 ---
 
-### <u>Setup Instructions</u>
+### <u>Browser Setup Instructions</u>
 
-Follow the examinator instructions to use the Codeanywhere setup.
+1. Access the site [Online-java](https://www.online-java.com/).
+2. Import the code there using the Open option:
+[!OpenOnlineJava](../images/OnlineJava_Open.png)
+3. Select the files from java files from [Source](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/FixTheCode)
 
+4. To run the code, be sure you have the Main.java file selected.
 
 ---
 
-### <u>Deprecated Setup Instructions - WIP</u>
+### <u>Local Setup Instructions</u>
 
-**Due to replit changes, this setup instructions is not valid anymore. Don't need to read further.**
+OBS: for this step you need to have Java configured in your machine.
 
-1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/FixTheCode)
-
-2. Create a Repl of **Java** with the name **SorterMain**
-
-![Create_replit](../images/1_createApp.png)
-
-Select **Choose a Template** tab.
-
-![Choose Template](../images/2_choose_template.png)
-
-Select **Java** as Template.
-
-![Select Java](../images/3_select_Java.png)
-
-Add the Title as **SorterMain** and click in **Create App**.
-
-![Rename and Create](../images/4_rename_and_create.png)
-
-3. Add the files of Problem1 folder in the Repl.it created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it.  !!! Don't upload the folder, but only the files to repl.it !!!
-
-![Adding files](../images/6_add_files.png)
-
-4. Open the shell using the + icon in the tabs. Use the following command to give execution permission to compile.sh and run.sh:
-> chmod +x compile.sh
-
-> chmod +x run.sh
-
-![Adding files](../images/7_open_shell_give_permission.png)
-
-4. To compile and run, run in repl.it shell the following command:
-> sh ./compile.sh; sh ./run.sh
+1. Create a java project.
+2. Add the java files in your project. Start by compiling and running Main.java.

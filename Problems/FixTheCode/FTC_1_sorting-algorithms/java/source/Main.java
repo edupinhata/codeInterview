@@ -1,6 +1,6 @@
 // Program that will have some sort algorithms for integer arrays
 
-class SorterMain {
+class Main {
 
     public static void main(String[] args) {
         System.out.println("Running some sorters...");
