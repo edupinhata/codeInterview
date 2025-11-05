@@ -35,20 +35,89 @@ d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
 
 ---
 
-### <u>Setup instructions For browser development</u>
+
+
+### <u>Setup instructions For local development</u>
 
 1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/source.zip).
-2. Create a **Pyhton templeate** in  of **Codeanywhere** with any name you want.
+2. Execute using `python main.py`
 
-![Create_codeanywhere](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/images/codeanywhere_create.png)
+---
 
-![Create_codeanywhere](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/images/codeanywhere_2.png)
+### <u>Setup instructions For browser development</u>
+
+1. Access [GDB Online](https://www.onlinegdb.com/). 
+
+2. Change the language to Python 3.
+
+3. Paste the following code in the text area: 
+
+```vim
+def swapTwoNumbers(array, i, j):
+    array[i], array[j] = array[j], array[i]
+    
+class CustomSorter:
+    def __init__(self, array):
+        self.array = array.copy()
+
+    def sort(self):
+        print("Sorting array using default python sort function")
+        self.array.sort(reverse=True)
+
+    def print(self):
+        arrayStr = ""
+        arraySize = len(self.array)
+
+        for i in range(arraySize):
+            arrayStr += str(self.array[i])
+            if i < arraySize-1
+                arrayStr += ", "
+        print(arrayStr)
+    
+class BubbleSorter(CustomSorter):
+
+    def sort(self):
+        print("Sorting array using Bubble Sort")
+
+        moved = True
+        while(moved):
+            moved = False
+            for i in range(len(self.array)):
+                if (self.array[i] > self.array[i+1]):
+                    swapTwoNumbers(self.array, i, i+1)
+                    moved = True
+                    
+class InsertionSorter(CustomSorter):
+
+    def sort(self):
+        print("Sorting with Insertion Sort.")
+
+        arraySize = len(self.array)
+        for i in range(1, arraySize-2):
+            j = i
+            while j > 0 and self.array[j - 1] < self.array[j]:
+                swapTwoNumbers(self.array, j, j - 1)
+                j -= 1
+                
+class SorterMain:
+
+    def execute(self):
+        print("Running some sorters...")
+        print("==============================")
+
+        array = [4, 3, 10, 1, 5, 2, 2, 8, 23, 2, 8, -1]
+
+        print("== Example of BUBBLE SORT")
+        sorter = BubbleSorter(array)
+        sorter.sort()
+        sorter.print()
+
+        print("\n== Example of INSERTION SORT")
+        sorter = CustomSorter(array)
+        sorter.sort()
+        sorter.print()
 
 
-3. Delete the current files and add the files of the source folder in the project created on step 2. Either drag and drop, or use the upload function in the three dots menu of repl.it. 
-  
-`Don't upload the folder, but only the files !!!`
-
-4. Press the **Run** button in the top right corner to execute the code.
-
-
+main = SorterMain()
+main.execute()
+```
