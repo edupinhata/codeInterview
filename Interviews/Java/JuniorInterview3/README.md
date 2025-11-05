@@ -23,7 +23,7 @@ For this test, you'll need:
 
 ### Implementation environment
 
-- All problems will be implemented in local environment or in the [Codeanywhere](https://app.codeanywhere.com/) site.
+- All problems will be implemented in local environment or in the [Onine-java](https://www.online-java.com/) site.
 
 ### **<u>Time limit</u>**
 
@@ -33,7 +33,7 @@ For this test, you'll need:
 
 ### **<u>Languages</u>**
 
-You can choose one of the following languages to solve the problems:
+You can choose one of the following languages to solve the implementation problem:
 
 - Java
 - Python
