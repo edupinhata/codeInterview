@@ -22,7 +22,7 @@ For this test, you'll need:
 
 ### Implementation environment
 
-- All problems will be implemented in a local environment the [Codeanywhere](https://app.codeanywhere.com/) site.
+- All problems will be implemented in a local environment or web plataforms described in the problems.
 - No AI support is allowed.
 
 ### **<u>Time limit</u>**
@@ -33,14 +33,14 @@ For this test, you'll need:
 
 ### **<u>Languages</u>**
 
-You can choose one of the following languages to solve the problems:
+You can choose one of the following languages to solve the implementation problems:
 
 - Java
 - Python
 - C
 - C++
 - C#
-- Javascript (Node) 
+- Javascript
 
 There is no extra points for an specific language, so use the one you feel more 
 
@@ -48,6 +48,6 @@ There is no extra points for an specific language, so use the one you feel more
 
 ## Problems:
 
-1. [Fix the Code](https://github.com/edupinhata/codeInterview/tree/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python)
-2. [Database](https://github.com/edupinhata/codeInterview/tree/main/Problems/Database/DB_1_simple-queries)
-3. [Implementation](https://github.com/edupinhata/codeInterview/tree/main/Problems/Implementation/I_1_restaurant)
+1. [Problem 1: Fix the Code](https://github.com/edupinhata/codeInterview/tree/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python)
+2. [Problem 2: Database](https://github.com/edupinhata/codeInterview/tree/main/Problems/Database/DB_1_simple-queries)
+3. [Problem 3: Implementation](https://github.com/edupinhata/codeInterview/tree/main/Problems/Implementation/I_1_restaurant)

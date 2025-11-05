@@ -24,6 +24,7 @@ For this test, you'll need:
 ### Implementation environment
 
 - All problems will be implemented in local environment or in the [Onine-java](https://www.online-java.com/) site.
+- No AI support is allowed.
 
 ### **<u>Time limit</u>**
 
@@ -37,8 +38,10 @@ You can choose one of the following languages to solve the implementation proble
 
 - Java
 - Python
+- C
 - C++
-- Javascript (Node) 
+- C#
+- Javascript
 
 ### **<u>Problems</u>**
 
