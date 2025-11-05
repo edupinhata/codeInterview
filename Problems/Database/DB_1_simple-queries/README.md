@@ -4,7 +4,14 @@
 
 Given the tables bellow, write queries that return the following data:
 
-a. Make a query that return the name of people that has credit limit above 1500.
+a. Make a query that return the name of people that has credit limit above 1500. Expected result:
+
+| name                            |
+|---------------------------------|
+| Cecília Olivia Rodrigues        |
+| Sabrina Heloisa Gabriela Barros |
+| Joaquim Diego Lorenzo Araújo    |
+
 
 b. Make a query that return the **name** and **cnpj** of the people that are a legal person. Expected result:
 
