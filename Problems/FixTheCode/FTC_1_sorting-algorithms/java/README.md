@@ -40,8 +40,8 @@ d. At the end, the main function will execute both Bubble sorter and Insertion s
 
 1. Access the site [Online-java](https://www.online-java.com/).
 2. Import the code there using the Open option:
-[!OpenOnlineJava](../images/OnlineJava_Open.png)
-3. Select the files from java files from [Source](https://github.com/edupinhata/codeInterview/blob/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip#:~:text=Raw-,View%20raw,-codeInterview/Problems/FixTheCode)
+![OpenOnlineJava](../images/OnlineJava_Open.png)
+3. Select the files from java files from [Source](https://github.com/edupinhata/codeInterview/raw/refs/heads/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip)
 
 4. To run the code, be sure you have the Main.java file selected.
 
