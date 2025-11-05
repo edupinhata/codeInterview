@@ -19,6 +19,7 @@ For this test, you'll need:
 
 - Connection to the internet
 - Access to a brownser
+- (Optional) Your own development environment
 
 ### Implementation environment
 
@@ -27,8 +28,8 @@ For this test, you'll need:
 
 ### **<u>Time limit</u>**
 
-- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code as well.
-- The problems should be solved in a time limit of 1 hour.
+- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code after reading all problems.
+- You'll have 1 hour to work in the problems.
 
 
 ### **<u>Languages</u>**

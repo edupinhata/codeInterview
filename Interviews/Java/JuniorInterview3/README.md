@@ -20,6 +20,7 @@ For this test, you'll need:
 
 - Connection to the internet
 - Access to a brownser
+- (Optional) Your own development environment.
 
 ### Implementation environment
 
@@ -28,9 +29,8 @@ For this test, you'll need:
 
 ### **<u>Time limit</u>**
 
-- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code as well.
-- The problems should be solved in a time limit of 1 hour.
-
+- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code after reading all problems.
+- You'll have 1 hour to work in the problems.
 
 ### **<u>Languages</u>**
 
@@ -48,7 +48,7 @@ You can choose one of the following languages to solve the implementation proble
 You can solve the problems in which order you prefer.
 
 - [Problem 1: Fix the code](../../../Problems/FixTheCode/FTC_1_sorting-algorithms/java)
-- [Problem 2: create SQL queries](../../../Problems/Database/DB_1_simple-queries)
-- [Problem 3: implementation](../../../Problems/Implementation/I_1_restaurant)
+- [Problem 2: Create SQL queries](../../../Problems/Database/DB_1_simple-queries)
+- [Problem 3: Implementation](../../../Problems/Implementation/I_1_restaurant)
 
 
