@@ -42,7 +42,10 @@ This tables may be added by the following instruction:
 
 ### <u>Setup Instructions</u>
 
-If you want to create a local SQL implementation to test, use the following code to create the tables described above.
+1. Access the site [SQLiteOnline](https://sqliteonline.com/). 
+2. Copy the queries bellow to SQLiteOnline and execute then to create the tables. 
+3. Now you can write the queries.
+
 
 ```vim
 DROP TABLE IF EXISTS legal_person;
