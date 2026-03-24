@@ -1,0 +1,86 @@
+Nome:
+Data:
+Posição e linguagem:
+
+Horário de prova:
+------------------------------
+Leitura:
+Prova:
+
+Resumo:
+===========================
+Breve resumo geral do candidato (3–4 linhas).
+===========================
+
+
+Prós:
+------------------------------
+- 
+- 
+- 
+
+
+Cons:
+------------------------------
+- 
+- 
+- 
+
+
+Avaliação (1–5)
+---------------------------
+1 = muito abaixo do esperado
+3 = dentro do esperado para o nível
+5 = acima do esperado
+
+Compreensão do problema:
+Raciocínio técnico:
+Debugging / investigação:
+Implementação / código:
+Comunicação:
+Priorização / gestão de tempo:
+Investigação / autonomia:
+
+
+
+Questão 1
+------------------------------
+Status: (Não iniciou / Parcial / Resolvido)
+
+Observações:
+- 
+- 
+- 
+
+Dicas dadas: (Nenhuma / Leve / Forte)
+
+
+Questão 2
+------------------------------
+Status: (Não iniciou / Parcial / Resolvido)
+
+Observações:
+- 
+- 
+- 
+
+Dicas dadas: (Nenhuma / Leve / Forte)
+
+
+Questão 3
+------------------------------
+Status: (Não iniciou / Parcial / Resolvido)
+
+Observações:
+- 
+- 
+- 
+
+Dicas dadas: (Nenhuma / Leve / Forte)
+
+
+Decisão:
+------------------------------
+(Hire / Lean Hire / Lean No Hire / No Hire)
+
+Justificativa:

@@ -92,3 +92,31 @@ Reforce que:
 
 - não esperamos que todas as questões sejam resolvidas;
 - priorização e raciocínio são mais importantes do que terminar tudo.
+
+
+---
+
+# Forma de avaliação
+
+Os seguintes pontos estão sendo avaliados ao entrevistar um candidato:
+
+## Compreensão do problema
+Avaliar se o candidato consegue entender corretamente o enunciado e identificar o que precisa ser feito. Observar se ele lê com atenção, faz perguntas para esclarecer dúvidas e consegue explicar com suas próprias palavras qual é o problema a ser resolvido.
+
+## Raciocínio técnico
+Avaliar como o candidato estrutura a solução. Observar se ele levanta hipóteses, considera alternativas e justifica suas decisões. O foco não é apenas chegar à resposta final, mas entender se o raciocínio utilizado é lógico, consistente e adequado ao problema.
+
+## Debugging / investigação
+Avaliar como o candidato investiga problemas quando algo não funciona. Observar se ele utiliza ferramentas como debugger, leitura de código, análise de erros ou logs para entender o que está acontecendo. Também é importante ver se a investigação é estruturada ou se ele apenas tenta soluções aleatórias.
+
+## Implementação / código
+Avaliar a capacidade do candidato de transformar uma ideia em código. Observar se ele consegue escrever código funcional, organizado e coerente com o problema proposto. Para vagas júnior, o foco principal é verificar domínio de conceitos básicos da linguagem e clareza na estrutura da solução.
+
+## Comunicação
+Avaliar a clareza com que o candidato explica seu raciocínio durante a resolução dos exercícios. Observar se ele consegue verbalizar o que está pensando, responder perguntas dos entrevistadores e explicar decisões técnicas de forma compreensível.
+
+## Priorização / gestão de tempo
+Avaliar como o candidato organiza seu tempo durante a prova. Observar se ele consegue escolher por onde começar, evitar gastar tempo excessivo em detalhes pouco relevantes e avançar para outras partes quando necessário.
+
+## Investigação / autonomia
+Avaliar como o candidato reage quando não sabe a resposta. Observar se ele tenta pesquisar, testar hipóteses, reler o enunciado ou pedir esclarecimentos ao entrevistador. O objetivo é verificar se ele consegue se mover na direção da solução mesmo sem saber tudo inicialmente.
