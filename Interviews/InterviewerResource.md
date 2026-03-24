@@ -1,23 +1,94 @@
-# Recursos de entrevistador
+# Introdução da entrevista técnica (script do entrevistador)
 
-Este é um guia para a introdução que o entrevistador deve fazer com o entrevistado.
+Antes de iniciar a prova, explique ao candidato como a entrevista funcionará. Use os pontos abaixo como guia para garantir que todos os candidatos recebam a mesma explicação.
 
-1. **Esta entrevista simula um dia de trabalho conosco:** todas as questões colocadas aqui buscam simular, de modo simplificado, um dia a dia de trabalho como desenvolvedor no nosso time. Por isso temos questões que vão simular:
-- Leitura da problemática, interpretação de texto, crítica textual;
-- Leitura, entendimento e correção de bugs;
-- Criação de queries SQL;
-- Implementação de código baseado em uma requisição de negócios.
+---
 
-2. **Como a prova será feita:** você irá compartilhar sua tela conosco e irá resolver a prova.
-- terá 15 minutos apenas para LEITURA. Neste momento você não deve tentar resolver nada. Este tempo é especificamente para que você possa entender as instruções da prova.
-- 1 hora para realizar a prova. As questões já estão na ordem de prioridade que queremos que você faça
+## 1. Contexto da prova
 
-3. **O resultado final importa menos do que como você fez para chegar até ele:** não queremos avaliar apenas um resultado final, mas sim como você chega até ele. Por isso pedimos que vá explicando o máximo possível sua linha de raciocínio.
+Explique ao candidato:
 
-4. **Pode usar a internet:** É muito comum quando se depara em problemas que não sabe a reposta e a internet é nossa aliada nesses momentos. Portanto, é permitido que você utilize a internet para pesquisar sintaxes, conceitos que não sabe. Só pedimos que não peça a resolução de um exercício para uma IA, pois não poderemos avaliar seu conhecimento desta forma.
-Vez ou outra os entrevistadores poderão dar dicas também.
+> Esta entrevista simula, de forma simplificada, algumas situações que fazem parte do dia a dia do nosso time de desenvolvimento.  
+> As atividades foram pensadas para avaliar como você interpreta problemas e como conduz a resolução deles.
 
-6. **A prova é mais longa do as pessoas conseguiriam fazer:** não esperamos que você termine a prova. Ela é propositalmente mais longa que o tempo disponível para fazer. Então não fique ansioso pelo seu andamento na prova. Não esperamos que você faça tudo. Ninguém nunca terminou essa prova.
+A prova inclui tarefas relacionadas a:
 
+- leitura e interpretação de problemas;
+- análise e correção de bugs;
+- criação de queries SQL;
+- implementação de código baseada em uma necessidade de negócio.
 
+---
 
+## 2. Formato da entrevista
+
+Explique ao candidato:
+
+> Durante a prova, pediremos que você compartilhe sua tela conosco enquanto resolve os exercícios.
+
+Detalhes do tempo:
+
+- **15 minutos iniciais apenas para leitura da prova**
+- nesse momento o candidato **não deve começar a resolver os exercícios**
+- objetivo: permitir que ele compreenda bem o problema antes de iniciar
+
+Depois disso:
+
+- **1 hora para resolver os exercícios**
+
+Explique também:
+
+> As questões estão organizadas em uma ordem de prioridade sugerida.
+
+---
+
+## 3. Pensamento em voz alta
+
+Explique ao candidato:
+
+> O resultado final é menos importante do que entender como você chegou até ele.  
+> Por isso pedimos que, sempre que possível, explique seu raciocínio enquanto resolve os exercícios.
+
+O objetivo é entender:
+
+- como o candidato interpreta o problema;
+- como estrutura a solução;
+- como reage a dificuldades.
+
+---
+
+## 4. Uso da internet
+
+Explique ao candidato:
+
+> É permitido usar a internet para consultar sintaxe, documentação ou conceitos.
+
+Reforce que:
+
+- isso faz parte do dia a dia de desenvolvimento.
+
+Peça apenas que o candidato **não utilize ferramentas que resolvam diretamente os exercícios**, como:
+
+- pedir solução pronta para uma IA;
+- buscar a resposta completa do problema.
+
+---
+
+## 5. Interação durante a prova
+
+Explique ao candidato:
+
+> Durante a prova, os entrevistadores podem fazer perguntas ou dar pequenas dicas quando julgarem apropriado.
+
+---
+
+## 6. Tamanho da prova
+
+Explique ao candidato:
+
+> A prova foi propositalmente desenhada para ter mais conteúdo do que normalmente seria possível concluir no tempo disponível.
+
+Reforce que:
+
+- não esperamos que todas as questões sejam resolvidas;
+- priorização e raciocínio são mais importantes do que terminar tudo.
