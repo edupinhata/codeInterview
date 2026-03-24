@@ -24,7 +24,7 @@ For this test, you'll need:
 
 ### Implementation environment
 
-- All problems will be implemented in local environment or in the [Onine-java](https://www.online-java.com/) site.
+- All problems may be implemented in local environment (without AI support) or in the [Onine-java](https://www.online-java.com/) site.
 - No AI support is allowed.
 
 ### **<u>Time limit</u>**
