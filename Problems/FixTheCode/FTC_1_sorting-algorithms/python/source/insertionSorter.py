@@ -5,8 +5,8 @@ class InsertionSorter(CustomSorter):
 
     def sort(self):
         print("Sorting with Insertion Sort.")
-
         arraySize = len(self.array)
+
         for i in range(1, arraySize-2):
             j = i
             while j > 0 and self.array[j - 1] < self.array[j]:

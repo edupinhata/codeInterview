@@ -5,11 +5,9 @@ class BubbleSorter(CustomSorter):
 
     def sort(self):
         print("Sorting array using Bubble Sort")
+        arrayLen = len(self.array)
 
-        moved = True
-        while(moved):
-            moved = False
-            for i in range(len(self.array)):
-                if (self.array[i] > self.array[i+1]):
-                    swapTwoNumbers(self.array, i, i+1)
-                    moved = True
+        for i in range(arrayLen):
+            for j in range(arrayLen - i):
+                if (self.array[j] > self.array[j+1]):
+                    swapTwoNumbers(self.array, j, j+1)

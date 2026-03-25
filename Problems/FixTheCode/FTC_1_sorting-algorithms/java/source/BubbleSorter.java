@@ -4,18 +4,16 @@ public class BubbleSorter implements Sorter{
 
     public int[] Sort(int[] array){
         System.out.println("Sorting array using Bubble Sort");
-       int[] sortedArray = array.clone();
-       boolean moved;
+        int[] sortedArray = array.clone();
+        int arrayLength = sortedArray.length;
 
-       do {
-           moved = false;
-           for (int i = 0; i < sortedArray.length; i++) {
-               if (sortedArray[i] > sortedArray[i+1]){
-                   Arrays.SwapTwoNumbers(sortedArray, i, i+1);
-                   moved = true;
-               }
-           }
-       }while (moved);
+        for (int i = 0; i < arrayLength; i++) {
+            for (int j = 0; j < arrayLength - i; j++) {
+                if (sortedArray[j] > sortedArray[j+1]){
+                    Arrays.SwapTwoNumbers(sortedArray, j, j+1);
+                }
+            }
+        }
 
        return sortedArray;
     }

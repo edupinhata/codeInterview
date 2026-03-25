@@ -59,7 +59,8 @@ Web Env: if you don't have local environment configured, you may use the [online
 ```vim
 def swapTwoNumbers(array, i, j):
     array[i], array[j] = array[j], array[i]
-    
+
+
 class CustomSorter:
     def __init__(self, array):
         self.array = array.copy()
@@ -77,32 +78,33 @@ class CustomSorter:
             if i < arraySize-1
                 arrayStr += ", "
         print(arrayStr)
-    
+
+
 class BubbleSorter(CustomSorter):
 
     def sort(self):
         print("Sorting array using Bubble Sort")
+        arrayLen = len(self.array)
 
-        moved = True
-        while(moved):
-            moved = False
-            for i in range(len(self.array)):
-                if (self.array[i] > self.array[i+1]):
-                    swapTwoNumbers(self.array, i, i+1)
-                    moved = True
-                    
+        for i in range(arrayLen):
+            for j in range(arrayLen - i):
+                if (self.array[j] > self.array[j+1]):
+                    swapTwoNumbers(self.array, j, j+1)
+
+
 class InsertionSorter(CustomSorter):
 
     def sort(self):
         print("Sorting with Insertion Sort.")
-
         arraySize = len(self.array)
+
         for i in range(1, arraySize-2):
             j = i
             while j > 0 and self.array[j - 1] < self.array[j]:
                 swapTwoNumbers(self.array, j, j - 1)
                 j -= 1
-                
+
+
 class SorterMain:
 
     def execute(self):
