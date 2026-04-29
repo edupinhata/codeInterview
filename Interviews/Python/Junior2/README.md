@@ -1,0 +1,54 @@
+# Code Interview
+
+Welcome to Thales code interview. The following problems were designed so we can understand a little bit more about your coding skills.
+
+For this challenge, you'll share your screen with us while you go through the problems. 
+It's really important to get the Problems right, but more than the following skills will be evaluated:
+
+- Problem solving skill
+- Thinking process to get to the solution
+- Strategy to get solution when you don't have the tools memorized.
+
+**OBS:** Feel free to search syntax in the internet. You can also search for solutions, but since the process to solve the problem is evaluated, the less the better.
+
+---
+
+### **<u>Requirements:</u>**
+
+For this test, you'll need:
+
+- Connection to the internet
+- Access to a brownser
+- (Optional) Your own development environment
+
+### Implementation environment
+
+- All problems will be implemented in a local environment or web plataforms described in the problems.
+- No AI support is allowed.
+
+### **<u>Time limit</u>**
+
+- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code after reading all problems.
+- You'll have 1 hour to work in the problems.
+
+
+### **<u>Languages</u>**
+
+You can choose one of the following languages to solve the implementation problems:
+
+- Java
+- Python
+- C
+- C++
+- C#
+- Javascript
+
+There is no extra points for an specific language, so use the one you feel more 
+
+---
+
+## Problems:
+
+1. [Problem 1: Fix the Code](https://github.com/edupinhata/codeInterview/tree/main/Problems/FixTheCode/FTC_3_sorting-algorithms/python)
+2. [Problem 2: Database](https://github.com/edupinhata/codeInterview/tree/main/Problems/Database/DB_1_simple-queries)
+3. [Problem 3: Implementation](https://github.com/edupinhata/codeInterview/tree/main/Problems/Implementation/I_1_restaurant)

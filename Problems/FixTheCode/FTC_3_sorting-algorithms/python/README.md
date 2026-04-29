@@ -53,7 +53,7 @@ OBS: All errors are small and simple, but they are spread across the code. If yo
 
 ### <u>Setup instructions For local development</u>
 
-1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/main/Problems/FixTheCode/FTC_1_sorting-algorithms/python/source.zip).
+1. Download the Source folder [clicking here](https://github.com/edupinhata/codeInterview/raw/refs/heads/main/Problems/FixTheCode/FTC_3_sorting-algorithms/python/FTC_3_python.zip).
 2. Execute using `python main.py` or `python3 main.py` depending on the version that you have.
 
 OBS: you can use your favorite IDE (without AI support).

@@ -1,0 +1,54 @@
+# Code Interview
+
+Welcome to Thales code interview. The following problems were designed so we can 
+understand a little bit more about your coding skills.
+
+For this challenge, you'll share your screen with us while you go through the problems. 
+It's really important to get the Problems right, but more than this we'll check other 
+skills like:
+- Problem solving skill
+- Thinking process to get to the solution
+- Strategy to get solution when you don't have the tools memorized.
+
+**OBS:** You can search syntax and solutions in the internet.
+
+---
+
+### **<u>Requirements:</u>**
+
+For this test, you'll need:
+
+- Connection to the internet
+- Access to a browser
+- (Optional) Your own development environment.
+
+### Implementation environment
+
+- All problems may be implemented in local environment (without AI support) or in the [Onine-java](https://www.online-java.com/) site.
+- No AI support is allowed.
+
+### **<u>Time limit</u>**
+
+- You'll have 15 minutes only to read this document. You can't solve anything within this time. You can read code after reading all problems.
+- You'll have 1 hour to work in the problems.
+
+### **<u>Languages</u>**
+
+You can choose one of the following languages to solve the implementation problem:
+
+- Java
+- Python
+- C
+- C++
+- C#
+- Javascript
+
+### **<u>Problems</u>**
+
+You can solve the problems in which order you prefer.
+
+- [Problem 1: Fix the code](../../../Problems/FixTheCode/FTC_3_sorting-algorithms/java)
+- [Problem 2: Create SQL queries](../../../Problems/Database/DB_1_simple-queries)
+- [Problem 3: Implementation](../../../Problems/Implementation/I_1_restaurant)
+
+
