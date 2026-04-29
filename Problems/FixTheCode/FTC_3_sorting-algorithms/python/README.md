@@ -4,17 +4,28 @@
 
 The source folder contains a code with some [sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm) for integer arrays, which are algorithms that organize elements by how each element is compared to other. For example, we can sort an integer array from the smaller to the greater number. Or we can sort strings alphabetically.
 
-Among the sorting algorithms, there are the Bubble Sorter and the Insertion Sorter. The following gif example shows visualy how these algorithms works and how they're implemented in the code of this problem
+Among the sorting algorithms, there are:
+
+- **Bubble Sorter:** sorts by repeatedly swapping the adjacent elements if they are in the wrong order. The algorithm gets its name because smaller elements "bubble" to the top of the list.
+- **Selection Sorter:** sorts by repeatedly selecting the smallest (or largest) element from the unsorted portion of the list and swapping it with the first unsorted element.
+- **Insertion Sorter:** sorts by building the final sorted array one item at a time, with the assumption that the first element is already sorted. Each new element is compared with the elements in the sorted portion and inserted in the correct position.
+
+The following images example shows visualy how these algorithms works and how they're implemented in the code of this problem:
 
 #### <u>Examples</u>
 
 ##### Bubble Sort simulation example
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/2/2a/Bubble_sort_with_flag.gif)
+
+##### Selection Sort simulation example
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/07/Udtag_sort_001.PNG)
 
 ##### Insertion Sort simulation example
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b1/Insertion-sort.svg)
+
 
 ---
 
@@ -29,9 +40,12 @@ a. Fix all syntax errors, so the program runs without errors.
 
 b. Fix all runtime errors so the program run without crash.
 
-c. Fix all semantic errors so the array is sorted from the **smaller number to the greater number**.
+c. Fix all semantic errors so the array is sorted from the **SMALLER NUMBER to the GREATER NUMBER**.
 
-d. At the end you must run the Bubble Sort and Insertion Sort algorithms.
+d. At the end, the main function should execute all sorter algorithms for a small array. It should also execute a performance test for a large array, comparing the result of each algorithm with the result of Python's built-in sorting method.
+
+
+OBS: All errors are small and simple, but they are spread across the code. If you are changing more than 3 lines in a file, you are probably changing more than just the error. Try to find the smallest change that can fix the error.
 
 ---
 

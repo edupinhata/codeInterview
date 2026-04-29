@@ -4,7 +4,7 @@ class CustomSorter:
 
     def sort(self):
         print("Sorting array using default python sort function")
-        self.array.sort(reverse=True)
+        self.array.sort(reverse=False)
 
     def print(self):
         arrayStr = ""
@@ -12,7 +12,7 @@ class CustomSorter:
 
         for i in range(arraySize):
             arrayStr += str(self.array[i])
-            if i < arraySize-1
+            if i < arraySize-1:
                 arrayStr += ", "
         print(arrayStr)
 
