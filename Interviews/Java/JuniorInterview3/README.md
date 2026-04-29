@@ -19,7 +19,7 @@ skills like:
 For this test, you'll need:
 
 - Connection to the internet
-- Access to a brownser
+- Access to a browser
 - (Optional) Your own development environment.
 
 ### Implementation environment
