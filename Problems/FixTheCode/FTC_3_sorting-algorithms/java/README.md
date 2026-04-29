@@ -56,7 +56,7 @@ OBS: All errors are small and simple, but they are spread across the code. If yo
 1. Access the site [Online-java](https://www.online-java.com/).
 2. Import the code there using the Open option:
 ![OpenOnlineJava](../images/OnlineJava_Open.png)
-3. Select the files from java files from [Source](https://github.com/edupinhata/codeInterview/raw/refs/heads/main/Problems/FixTheCode/FTC_1_sorting-algorithms/java/source.zip)
+3. Select the files from java files from [Source](https://github.com/edupinhata/codeInterview/raw/refs/heads/main/Problems/FixTheCode/FTC_3_sorting-algorithms/java/FTC_3_source.zip)
 
 4. To run the code, be sure you have the Main.java file selected.
 
